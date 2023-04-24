@@ -36,6 +36,45 @@ bool task::is_delaunay(polymesh::edge_handle edge, pm::vertex_attribute<tg::pos2
     // -> circum-circle test of the four points (a,b,c,d) OR check if the projected paraboloid is convex
     //--- start strip ---
 
+    //1. Find line in standard form (NXx+NYy=C) from two points:
+    //find normal n=(NX,NY)^T for point pairs (a,b) and (a,c)
+    tg::vec<2, tg::f32> n1 = { a.x - b.x, a.y - b.y };
+    tg::vec<2, tg::f32> n2 = { a.x - c.x,a.y - c.y };
+    //2. Calculate midpoints of ab and ac:
+    tg::pos2 mid_ab = { (a.x+b.x) / 2, (a.y+b.y) / 2 };
+    tg::pos2 mid_ac = { (a.x+c.x) / 2, (a.y+c.y) / 2 };
+
+    //insert midpoints to find corresponding C
+    float c1 = (n1.x * mid_ab.x) + (n1.y * mid_ab.y);
+    float c2 = (n2.x * mid_ac.x) + (n2.y * mid_ac.y);
+
+    //=>Line equations through midpoint perpendicular to the edges ab and ac: n1*(x,y)^T=c1 and n2*(x,y)^T=c2
+
+    //3. Calculate intersection of lines:
+    float determinant = ((n1.x * n2.y) - (n2.x * n1.y));
+
+    if (determinant == 0) { //lines are parallel
+        return false;
+    }
+
+    float x = (n2.y * c1) - (n1.y * c2);
+    float y = (n1.x * c2) - (n2.x * c1);
+    tg::pos2 circumcenter = {x / determinant, y / determinant};
+
+    //4. Calculate circumradius
+    tg::vec<2, tg::f32> v = a-circumcenter;
+    float circumradius = tg::length(v);
+    
+    //5. Calculate distance from center for d
+    tg::vec<2, tg::f32> test_vertex = d - circumcenter;
+    float dist = tg::length(test_vertex);
+
+    if (dist < circumradius) {
+        result = false;
+    }
+
+    //TODO for testing only
+    //std::cout << result << std::endl;
 
     //--- end strip ---
 
@@ -69,6 +108,59 @@ polymesh::vertex_index task::insert_vertex(polymesh::Mesh& mesh, pm::vertex_attr
     //   You can use an std::queue as a container for edges
     //--- start strip ---
 
+    std::queue<polymesh::edge_handle> edge_queue;
+    std::vector<polymesh::edge_handle> visited_edges;
+
+    //1. Find closest edges
+
+    int new_vertex = v.idx.value;
+
+    for (auto vertex : mesh.vertices()) {
+        if (vertex.idx.value == new_vertex) {
+            auto faces=vertex.all_faces();
+            for (auto face : faces) {
+                for (auto edge : face.edges()) { 
+                    if (edge.vertexA().idx.value!=new_vertex && edge.vertexB().idx.value != new_vertex) {
+                        edge_queue.push(edge);
+                    }
+                }
+            }
+        }
+    }
+
+    while (!edge_queue.empty()) {
+        auto edge = edge_queue.front();
+        edge_queue.pop();
+
+        //edge has already been looked at
+        if (std::find(visited_edges.begin(), visited_edges.end(),edge) != visited_edges.end()) { 
+            continue; 
+        }
+        visited_edges.push_back(edge);
+
+        if (edge.is_boundary()) {
+            continue;
+        }
+        
+
+        if (!is_delaunay(edge, position)) {
+            auto faceA = edge.faceA();
+            auto faceB = edge.faceB();
+
+            for (size_t i = 0; i < faceA.edges().size();i++) {
+                //add edges of triangles that were changed
+                auto edgeA = faceA.edges().to_vector().at(i);
+                if (edgeA != edge) {
+                    edge_queue.push(edgeA);
+                }
+                auto edgeB = faceB.edges().to_vector().at(i);
+                if (edgeB != edge) {
+                    edge_queue.push(edgeB);
+                }
+            }
+            mesh.edges().flip(edge);
+        }
+    }
 
     //--- end strip ---
 
