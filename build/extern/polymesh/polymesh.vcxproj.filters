@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\extern\polymesh\unitybuild_0_polymesh.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\Mesh.cc">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms\cache-optimization.cc">
+      <Filter>polymesh\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms\components.cc">
+      <Filter>polymesh\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms\triangulate.cc">
+      <Filter>polymesh\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\assert.cc">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\debug.cc">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\detail\delaunay.cc">
+      <Filter>polymesh\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\formats.cc">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\formats\obj.cc">
+      <Filter>polymesh\formats</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\formats\off.cc">
+      <Filter>polymesh\formats</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\formats\ply.cc">
+      <Filter>polymesh\formats</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\formats\stl.cc">
+      <Filter>polymesh\formats</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\objects\dodecahedron.cc">
+      <Filter>polymesh\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\objects\ico_sphere.cc">
+      <Filter>polymesh\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\Mesh.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms\cache-optimization.hh">
+      <Filter>polymesh\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms\components.hh">
+      <Filter>polymesh\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms\decimate.hh">
+      <Filter>polymesh\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms\deduplicate.hh">
+      <Filter>polymesh\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms\delaunay.hh">
+      <Filter>polymesh\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms\edge_split.hh">
+      <Filter>polymesh\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms\fill_hole.hh">
+      <Filter>polymesh\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms\interpolation.hh">
+      <Filter>polymesh\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms\iteration.hh">
+      <Filter>polymesh\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms\normal_estimation.hh">
+      <Filter>polymesh\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms\normalize.hh">
+      <Filter>polymesh\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms\operations.hh">
+      <Filter>polymesh\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms\properties.hh">
+      <Filter>polymesh\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms\sampling.hh">
+      <Filter>polymesh\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms\smoothing.hh">
+      <Filter>polymesh\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms\stats.hh">
+      <Filter>polymesh\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms\subdivision\loop.hh">
+      <Filter>polymesh\algorithms\subdivision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms\subdivision\sqrt3.hh">
+      <Filter>polymesh\algorithms\subdivision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms\topology.hh">
+      <Filter>polymesh\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms\tracing.hh">
+      <Filter>polymesh\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\algorithms\triangulate.hh">
+      <Filter>polymesh\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\assert.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\attribute_base.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\attributes.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\attributes\fast_clear_attribute.hh">
+      <Filter>polymesh\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\attributes\flags.hh">
+      <Filter>polymesh\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\attributes\partitioning.hh">
+      <Filter>polymesh\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\attributes\raw_attribute.hh">
+      <Filter>polymesh\attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\bind.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\copy.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\cursors.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\debug.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\detail\AttributeSerializer.hh">
+      <Filter>polymesh\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\detail\delaunay.hh">
+      <Filter>polymesh\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\detail\math.hh">
+      <Filter>polymesh\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\detail\permutation.hh">
+      <Filter>polymesh\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\detail\primitive_set.hh">
+      <Filter>polymesh\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\detail\random.hh">
+      <Filter>polymesh\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\detail\split_vector.hh">
+      <Filter>polymesh\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\detail\topology_iterator.hh">
+      <Filter>polymesh\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\detail\union_find.hh">
+      <Filter>polymesh\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\detail\unique_array.hh">
+      <Filter>polymesh\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\detail\unique_ptr.hh">
+      <Filter>polymesh\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\ext\attribute_collection.hh">
+      <Filter>polymesh\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\fields.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\formats.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\formats\obj.hh">
+      <Filter>polymesh\formats</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\formats\off.hh">
+      <Filter>polymesh\formats</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\formats\ply.hh">
+      <Filter>polymesh\formats</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\formats\stl.hh">
+      <Filter>polymesh\formats</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\fwd.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\hash.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\impl\impl_attributes.hh">
+      <Filter>polymesh\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\impl\impl_cursors.hh">
+      <Filter>polymesh\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\impl\impl_low_level_api_base.hh">
+      <Filter>polymesh\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\impl\impl_low_level_api_mutable.hh">
+      <Filter>polymesh\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\impl\impl_mesh.hh">
+      <Filter>polymesh\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\impl\impl_primitive.hh">
+      <Filter>polymesh\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\impl\impl_properties.hh">
+      <Filter>polymesh\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\impl\impl_ranges.hh">
+      <Filter>polymesh\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\iterators.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\low_level_api.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\macros.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\objects.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\objects\cone.hh">
+      <Filter>polymesh\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\objects\cube.hh">
+      <Filter>polymesh\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\objects\cylinder.hh">
+      <Filter>polymesh\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\objects\dodecahedron.hh">
+      <Filter>polymesh\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\objects\ico_sphere.hh">
+      <Filter>polymesh\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\objects\quad.hh">
+      <Filter>polymesh\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\objects\uv_sphere.hh">
+      <Filter>polymesh\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\pm-std.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\pm.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\primitives.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\properties.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\ranges.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\span.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\std\hash.hh">
+      <Filter>polymesh\std</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\std\io.hh">
+      <Filter>polymesh\std</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\std\memory.hh">
+      <Filter>polymesh\std</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\tmp.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src\polymesh\view.hh">
+      <Filter>polymesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\clean-core\clean_core.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1A1C3940-8137-3FAC-93C7-A9ECD04D5DE1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="polymesh">
+      <UniqueIdentifier>{B089065A-CD4D-3E92-AAE9-C7540C29D469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="polymesh\algorithms">
+      <UniqueIdentifier>{89660540-04A3-33E9-ADA4-DC2F4C7305B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="polymesh\algorithms\subdivision">
+      <UniqueIdentifier>{CA7CCE1D-B695-386A-BC3A-FAE9E96148FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="polymesh\attributes">
+      <UniqueIdentifier>{C152B830-710F-3895-9F65-8784867C569D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="polymesh\detail">
+      <UniqueIdentifier>{D7176F5B-2435-33A7-BDDC-53B6AC47B2A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="polymesh\ext">
+      <UniqueIdentifier>{A5534FA8-8901-398F-8E60-76CE577068B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="polymesh\formats">
+      <UniqueIdentifier>{AB81C94D-692C-3C2F-941D-AB3DBE436FE9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="polymesh\impl">
+      <UniqueIdentifier>{E1EECE7F-003A-336A-9E52-6C5F36472F0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="polymesh\objects">
+      <UniqueIdentifier>{2953D500-DD2F-3C80-AF70-5FE02212609B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="polymesh\std">
+      <UniqueIdentifier>{5DFA162A-4C44-321A-B88E-B557AFF00A81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

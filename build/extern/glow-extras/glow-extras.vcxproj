@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FC6DF480-85BA-3536-86AA-A392754D92CC}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>glow-extras</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\extern\glow-extras\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glow-extras.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">glow-extras</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\extern\glow-extras\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glow-extras.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">glow-extras</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\extern\glow-extras\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glow-extras.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">glow-extras</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\extern\glow-extras\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glow-extras.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">glow-extras</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\input\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\colors\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\shader\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\material\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\clean-core\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\extern\glad\core-4.5\include;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\imgui\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4715;4477;4474</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GLOW_EXTRAS_EMBED_SHADERS;GLOW_EXTRAS_OPENGL_DEBUG_GROUPS;GLOW_EXTRAS_HAS_IMGUI;GLOW_EXTRAS_HAS_POLYMESH;GLOW_EXTRAS_HAS_GLFW;GLOW_EXTRAS_INPUT;GLOW_EXTRAS_COLORS;GLOW_EXTRAS_CAMERA;GLOW_EXTRAS_SHADER;GLOW_EXTRAS_GEOMETRY;GLOW_EXTRAS_PIPELINE;_ENABLE_EXTENDED_ALIGNED_STORAGE;GLOW_EXTRAS_DEBUGGING;GLOW_EXTRAS_MATERIAL;GLOW_EXTRAS_TIMING;GLOW_EXTRAS_DEFAULT_FONTS;GLOW_EXTRAS_GLFW;GLOW_EXTRAS_VIEWER;NOMINMAX;WIN32_LEAN_AND_MEAN;GLOW_OS_WINDOWS;GLOW_COMPILER_MSVC;GLOW_OPENGL_SUPPORT_CORE_45;GLOW_OPENGL_PROFILE_CORE;GLOW_OPENGL_PROFILE=CORE;GLOW_OPENGL_VERSION_45;GLOW_OPENGL_VERSION=45;GLOW_PERFORM_VALIDATION;GLOW_HAS_TG;TG_EXPORT_LITERALS;CC_DEBUG;CC_ENABLE_ASSERTIONS;CC_ENABLE_BOUND_CHECKING;CC_ENABLE_NULL_CHECKING;CC_ENABLE_CONTRACT_CHECKING;IMGUI_IMPL_OPENGL_LOADER_GLAD;IMGUI_USE_IMPLOT;POLYMESH_ENABLE_ASSERTIONS;POLYMESH_SUPPORT_TYPED_GEOMETRY;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GLOW_EXTRAS_EMBED_SHADERS;GLOW_EXTRAS_OPENGL_DEBUG_GROUPS;GLOW_EXTRAS_HAS_IMGUI;GLOW_EXTRAS_HAS_POLYMESH;GLOW_EXTRAS_HAS_GLFW;GLOW_EXTRAS_INPUT;GLOW_EXTRAS_COLORS;GLOW_EXTRAS_CAMERA;GLOW_EXTRAS_SHADER;GLOW_EXTRAS_GEOMETRY;GLOW_EXTRAS_PIPELINE;_ENABLE_EXTENDED_ALIGNED_STORAGE;GLOW_EXTRAS_DEBUGGING;GLOW_EXTRAS_MATERIAL;GLOW_EXTRAS_TIMING;GLOW_EXTRAS_DEFAULT_FONTS;GLOW_EXTRAS_GLFW;GLOW_EXTRAS_VIEWER;NOMINMAX;WIN32_LEAN_AND_MEAN;GLOW_OS_WINDOWS;GLOW_COMPILER_MSVC;GLOW_OPENGL_SUPPORT_CORE_45;GLOW_OPENGL_PROFILE_CORE;GLOW_OPENGL_PROFILE=CORE;GLOW_OPENGL_VERSION_45;GLOW_OPENGL_VERSION=45;GLOW_PERFORM_VALIDATION;GLOW_HAS_TG;TG_EXPORT_LITERALS;CC_DEBUG;CC_ENABLE_ASSERTIONS;CC_ENABLE_BOUND_CHECKING;CC_ENABLE_NULL_CHECKING;CC_ENABLE_CONTRACT_CHECKING;IMGUI_IMPL_OPENGL_LOADER_GLAD;IMGUI_USE_IMPLOT;POLYMESH_ENABLE_ASSERTIONS;POLYMESH_SUPPORT_TYPED_GEOMETRY;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\input\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\colors\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\shader\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\material\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\clean-core\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\extern\glad\core-4.5\include;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\imgui\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\input\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\colors\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\shader\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\material\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\clean-core\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\extern\glad\core-4.5\include;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\imgui\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\input\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\colors\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\shader\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\material\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\clean-core\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\extern\glad\core-4.5\include;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\imgui\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4715;4477;4474</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLOW_EXTRAS_EMBED_SHADERS;GLOW_EXTRAS_OPENGL_DEBUG_GROUPS;GLOW_EXTRAS_HAS_IMGUI;GLOW_EXTRAS_HAS_POLYMESH;GLOW_EXTRAS_HAS_GLFW;GLOW_EXTRAS_INPUT;GLOW_EXTRAS_COLORS;GLOW_EXTRAS_CAMERA;GLOW_EXTRAS_SHADER;GLOW_EXTRAS_GEOMETRY;GLOW_EXTRAS_PIPELINE;_ENABLE_EXTENDED_ALIGNED_STORAGE;GLOW_EXTRAS_DEBUGGING;GLOW_EXTRAS_MATERIAL;GLOW_EXTRAS_TIMING;GLOW_EXTRAS_DEFAULT_FONTS;GLOW_EXTRAS_GLFW;GLOW_EXTRAS_VIEWER;NOMINMAX;WIN32_LEAN_AND_MEAN;GLOW_OS_WINDOWS;GLOW_COMPILER_MSVC;GLOW_OPENGL_SUPPORT_CORE_45;GLOW_OPENGL_PROFILE_CORE;GLOW_OPENGL_PROFILE=CORE;GLOW_OPENGL_VERSION_45;GLOW_OPENGL_VERSION=45;GLOW_PERFORM_VALIDATION;GLOW_HAS_TG;TG_EXPORT_LITERALS;CC_RELEASE;CC_ENABLE_BOUND_CHECKING;CC_ENABLE_NULL_CHECKING;CC_ENABLE_CONTRACT_CHECKING;IMGUI_IMPL_OPENGL_LOADER_GLAD;IMGUI_USE_IMPLOT;POLYMESH_SUPPORT_TYPED_GEOMETRY;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLOW_EXTRAS_EMBED_SHADERS;GLOW_EXTRAS_OPENGL_DEBUG_GROUPS;GLOW_EXTRAS_HAS_IMGUI;GLOW_EXTRAS_HAS_POLYMESH;GLOW_EXTRAS_HAS_GLFW;GLOW_EXTRAS_INPUT;GLOW_EXTRAS_COLORS;GLOW_EXTRAS_CAMERA;GLOW_EXTRAS_SHADER;GLOW_EXTRAS_GEOMETRY;GLOW_EXTRAS_PIPELINE;_ENABLE_EXTENDED_ALIGNED_STORAGE;GLOW_EXTRAS_DEBUGGING;GLOW_EXTRAS_MATERIAL;GLOW_EXTRAS_TIMING;GLOW_EXTRAS_DEFAULT_FONTS;GLOW_EXTRAS_GLFW;GLOW_EXTRAS_VIEWER;NOMINMAX;WIN32_LEAN_AND_MEAN;GLOW_OS_WINDOWS;GLOW_COMPILER_MSVC;GLOW_OPENGL_SUPPORT_CORE_45;GLOW_OPENGL_PROFILE_CORE;GLOW_OPENGL_PROFILE=CORE;GLOW_OPENGL_VERSION_45;GLOW_OPENGL_VERSION=45;GLOW_PERFORM_VALIDATION;GLOW_HAS_TG;TG_EXPORT_LITERALS;CC_RELEASE;CC_ENABLE_BOUND_CHECKING;CC_ENABLE_NULL_CHECKING;CC_ENABLE_CONTRACT_CHECKING;IMGUI_IMPL_OPENGL_LOADER_GLAD;IMGUI_USE_IMPLOT;POLYMESH_SUPPORT_TYPED_GEOMETRY;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\input\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\colors\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\shader\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\material\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\clean-core\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\extern\glad\core-4.5\include;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\imgui\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\input\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\colors\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\shader\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\material\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\clean-core\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\extern\glad\core-4.5\include;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\imgui\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\input\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\colors\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\shader\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\material\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\clean-core\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\extern\glad\core-4.5\include;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\imgui\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4715;4477;4474</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLOW_EXTRAS_EMBED_SHADERS;GLOW_EXTRAS_OPENGL_DEBUG_GROUPS;GLOW_EXTRAS_HAS_IMGUI;GLOW_EXTRAS_HAS_POLYMESH;GLOW_EXTRAS_HAS_GLFW;GLOW_EXTRAS_INPUT;GLOW_EXTRAS_COLORS;GLOW_EXTRAS_CAMERA;GLOW_EXTRAS_SHADER;GLOW_EXTRAS_GEOMETRY;GLOW_EXTRAS_PIPELINE;_ENABLE_EXTENDED_ALIGNED_STORAGE;GLOW_EXTRAS_DEBUGGING;GLOW_EXTRAS_MATERIAL;GLOW_EXTRAS_TIMING;GLOW_EXTRAS_DEFAULT_FONTS;GLOW_EXTRAS_GLFW;GLOW_EXTRAS_VIEWER;NOMINMAX;WIN32_LEAN_AND_MEAN;GLOW_OS_WINDOWS;GLOW_COMPILER_MSVC;GLOW_OPENGL_SUPPORT_CORE_45;GLOW_OPENGL_PROFILE_CORE;GLOW_OPENGL_PROFILE=CORE;GLOW_OPENGL_VERSION_45;GLOW_OPENGL_VERSION=45;GLOW_PERFORM_VALIDATION;GLOW_HAS_TG;TG_EXPORT_LITERALS;CC_ENABLE_BOUND_CHECKING;CC_ENABLE_NULL_CHECKING;CC_ENABLE_CONTRACT_CHECKING;IMGUI_IMPL_OPENGL_LOADER_GLAD;IMGUI_USE_IMPLOT;POLYMESH_SUPPORT_TYPED_GEOMETRY;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLOW_EXTRAS_EMBED_SHADERS;GLOW_EXTRAS_OPENGL_DEBUG_GROUPS;GLOW_EXTRAS_HAS_IMGUI;GLOW_EXTRAS_HAS_POLYMESH;GLOW_EXTRAS_HAS_GLFW;GLOW_EXTRAS_INPUT;GLOW_EXTRAS_COLORS;GLOW_EXTRAS_CAMERA;GLOW_EXTRAS_SHADER;GLOW_EXTRAS_GEOMETRY;GLOW_EXTRAS_PIPELINE;_ENABLE_EXTENDED_ALIGNED_STORAGE;GLOW_EXTRAS_DEBUGGING;GLOW_EXTRAS_MATERIAL;GLOW_EXTRAS_TIMING;GLOW_EXTRAS_DEFAULT_FONTS;GLOW_EXTRAS_GLFW;GLOW_EXTRAS_VIEWER;NOMINMAX;WIN32_LEAN_AND_MEAN;GLOW_OS_WINDOWS;GLOW_COMPILER_MSVC;GLOW_OPENGL_SUPPORT_CORE_45;GLOW_OPENGL_PROFILE_CORE;GLOW_OPENGL_PROFILE=CORE;GLOW_OPENGL_VERSION_45;GLOW_OPENGL_VERSION=45;GLOW_PERFORM_VALIDATION;GLOW_HAS_TG;TG_EXPORT_LITERALS;CC_ENABLE_BOUND_CHECKING;CC_ENABLE_NULL_CHECKING;CC_ENABLE_CONTRACT_CHECKING;IMGUI_IMPL_OPENGL_LOADER_GLAD;IMGUI_USE_IMPLOT;POLYMESH_SUPPORT_TYPED_GEOMETRY;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\input\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\colors\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\shader\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\material\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\clean-core\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\extern\glad\core-4.5\include;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\imgui\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\input\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\colors\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\shader\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\material\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\clean-core\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\extern\glad\core-4.5\include;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\imgui\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\input\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\colors\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\shader\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\material\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\clean-core\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\extern\glad\core-4.5\include;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\imgui\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4715;4477;4474</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLOW_EXTRAS_EMBED_SHADERS;GLOW_EXTRAS_OPENGL_DEBUG_GROUPS;GLOW_EXTRAS_HAS_IMGUI;GLOW_EXTRAS_HAS_POLYMESH;GLOW_EXTRAS_HAS_GLFW;GLOW_EXTRAS_INPUT;GLOW_EXTRAS_COLORS;GLOW_EXTRAS_CAMERA;GLOW_EXTRAS_SHADER;GLOW_EXTRAS_GEOMETRY;GLOW_EXTRAS_PIPELINE;_ENABLE_EXTENDED_ALIGNED_STORAGE;GLOW_EXTRAS_DEBUGGING;GLOW_EXTRAS_MATERIAL;GLOW_EXTRAS_TIMING;GLOW_EXTRAS_DEFAULT_FONTS;GLOW_EXTRAS_GLFW;GLOW_EXTRAS_VIEWER;NOMINMAX;WIN32_LEAN_AND_MEAN;GLOW_OS_WINDOWS;GLOW_COMPILER_MSVC;GLOW_OPENGL_SUPPORT_CORE_45;GLOW_OPENGL_PROFILE_CORE;GLOW_OPENGL_PROFILE=CORE;GLOW_OPENGL_VERSION_45;GLOW_OPENGL_VERSION=45;GLOW_PERFORM_VALIDATION;GLOW_HAS_TG;TG_EXPORT_LITERALS;CC_RELWITHDEBINFO;CC_ENABLE_ASSERTIONS;CC_ENABLE_BOUND_CHECKING;CC_ENABLE_NULL_CHECKING;CC_ENABLE_CONTRACT_CHECKING;IMGUI_IMPL_OPENGL_LOADER_GLAD;IMGUI_USE_IMPLOT;POLYMESH_ENABLE_ASSERTIONS;POLYMESH_SUPPORT_TYPED_GEOMETRY;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLOW_EXTRAS_EMBED_SHADERS;GLOW_EXTRAS_OPENGL_DEBUG_GROUPS;GLOW_EXTRAS_HAS_IMGUI;GLOW_EXTRAS_HAS_POLYMESH;GLOW_EXTRAS_HAS_GLFW;GLOW_EXTRAS_INPUT;GLOW_EXTRAS_COLORS;GLOW_EXTRAS_CAMERA;GLOW_EXTRAS_SHADER;GLOW_EXTRAS_GEOMETRY;GLOW_EXTRAS_PIPELINE;_ENABLE_EXTENDED_ALIGNED_STORAGE;GLOW_EXTRAS_DEBUGGING;GLOW_EXTRAS_MATERIAL;GLOW_EXTRAS_TIMING;GLOW_EXTRAS_DEFAULT_FONTS;GLOW_EXTRAS_GLFW;GLOW_EXTRAS_VIEWER;NOMINMAX;WIN32_LEAN_AND_MEAN;GLOW_OS_WINDOWS;GLOW_COMPILER_MSVC;GLOW_OPENGL_SUPPORT_CORE_45;GLOW_OPENGL_PROFILE_CORE;GLOW_OPENGL_PROFILE=CORE;GLOW_OPENGL_VERSION_45;GLOW_OPENGL_VERSION=45;GLOW_PERFORM_VALIDATION;GLOW_HAS_TG;TG_EXPORT_LITERALS;CC_RELWITHDEBINFO;CC_ENABLE_ASSERTIONS;CC_ENABLE_BOUND_CHECKING;CC_ENABLE_NULL_CHECKING;CC_ENABLE_CONTRACT_CHECKING;IMGUI_IMPL_OPENGL_LOADER_GLAD;IMGUI_USE_IMPLOT;POLYMESH_ENABLE_ASSERTIONS;POLYMESH_SUPPORT_TYPED_GEOMETRY;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\input\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\colors\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\shader\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\material\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\clean-core\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\extern\glad\core-4.5\include;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\imgui\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\input\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\colors\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\shader\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\material\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\.;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\clean-core\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\extern\glad\core-4.5\include;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\imgui\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\polymesh\src;C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/extern/glow-extras/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework -BC:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/build --check-stamp-file C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/build/extern/glow-extras/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\extern\glow-extras\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/extern/glow-extras/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework -BC:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/build --check-stamp-file C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/build/extern/glow-extras/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\extern\glow-extras\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/extern/glow-extras/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework -BC:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/build --check-stamp-file C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/build/extern/glow-extras/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\extern\glow-extras\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/extern/glow-extras/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework -BC:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/build --check-stamp-file C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/build/extern/glow-extras/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\extern\glow-extras\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\input\glow-extras\input\InputSnapshot.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\input\glow-extras\input\InputState.cc" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\input\glow-extras\input\InputSnapshot.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\input\glow-extras\input\InputState.hh" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\colors\glow-extras\colors\color.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\colors\glow-extras\colors\colormap.cc" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\colors\glow-extras\colors\color.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\colors\glow-extras\colors\colormap.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\colors\glow-extras\colors\helper.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\colors\glow-extras\colors\material_colors.hh" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\CameraUtils.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\Handle.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\Lens.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\controllers\LookAroundController.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\controllers\TargetOrbitController.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\controllers\WASDController.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\legacy\FixedCamera.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\legacy\GenericCamera.cc" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\CameraBase.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\CameraUtils.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\Handle.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\Lens.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\SmoothedCamera.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\controllers\LookAroundController.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\controllers\TargetOrbitController.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\controllers\WASDController.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\legacy\FixedCamera.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\legacy\GenericCamera.hh" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\shader\glow-extras\shader\Output.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\shader\glow-extras\shader\PostProcessing.cc" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\shader\glow-extras\shader\Output.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\shader\glow-extras\shader\PostProcessing.hh" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\CoordFrame.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\FullscreenTriangle.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\Line.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\Quad.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\UVSphere.cc" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\CoordFrame.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\Cube.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\CubeBrush.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\FullscreenTriangle.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\Line.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\MeshBuilder.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\Quad.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\UVSphere.hh" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\RenderPipeline.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\RenderScene.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\lights\Light.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\RenderStage.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\StageCamera.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\AO\AOGlobalBuffer.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\AO\AOPerPassBuffer.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\AOStage.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\DepthPreStage.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\LightingCombinationStage.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\OITStage.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\OpaqueStage.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\OutputStage.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\PostprocessingStage.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\ShadowStage.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\TemporalResolveStage.cc" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\RenderCallback.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\RenderPipeline.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\RenderScene.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\Settings.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\fwd.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\lights\Light.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\RenderStage.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\StageCamera.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\AO\AOGlobalBuffer.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\AO\AOPerPassBuffer.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\AOStage.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\DepthPreStage.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\LightingCombinationStage.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\OITStage.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\OpaqueStage.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\OutputStage.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\PostprocessingStage.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\ShadowStage.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\TemporalResolveStage.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\utility\GeometryMath.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\utility\SubpixelJitter.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\shader\glow-pipeline\internal\common\globals.hh" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\glow-extras\debugging\DebugOverlay.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\glow-extras\debugging\DebugRenderer.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\glow-extras\debugging\imgui-util.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\glow-extras\debugging\profiling\ImguiMetric.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\glow-extras\debugging\profiling\ProfilingOverlay.cc" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\glow-extras\debugging\DebugOverlay.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\glow-extras\debugging\DebugRenderer.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\glow-extras\debugging\imgui-util.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\glow-extras\debugging\profiling\ImguiMetric.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\glow-extras\debugging\profiling\ProfilingOverlay.hh" />
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\shader\glow-debugging\primitive.opaque.fsh">
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\shader\glow-debugging\primitive.vsh">
+    </None>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\material\glow-extras\material\IBL.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\material\glow-extras\material\data\DefaultEnvmapData.cc" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\material\glow-extras\material\GGXMaterial.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\material\glow-extras\material\IBL.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\material\glow-extras\material\data\DefaultEnvmapData.hh" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\CpuTimer.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\Cycler.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\FrameCounter.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\GlowAction.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\GlowActionLabel.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\GpuTimekeeper.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\GpuTimer.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\Metric.cc" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\CpuTimer.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\Cycler.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\FrameCounter.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\GlowAction.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\GlowActionLabel.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\GpuTimekeeper.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\GpuTimer.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\Metric.hh" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\backend\nanovg\fontstash.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\backend\nanovg\nanovg.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\backend\nanovg\nanovg_gl.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\backend\opengl.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\debug.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\fonts.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\fonts\FiraMono-Regular.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\fonts\FiraSans-Regular.cc" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\backend\nanovg\fontstash.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\backend\nanovg\nanovg.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\backend\nanovg\nanovg_gl.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\backend\nanovg\nanovg_gl_utils.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\backend\opengl.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\cmd2D.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\debug.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\fonts.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\fwd.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\graphics2D.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\image2D.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\text_align.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\vector.hh" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\glow-extras\glfw\GlfwApp.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\glow-extras\glfw\GlfwContext.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\glow-extras\glfw\LambdaApp.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\glow-extras\glfw\LambdaPipeline.cc" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\glow-extras\glfw\GlfwApp.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\glow-extras\glfw\GlfwContext.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\glow-extras\glfw\LambdaApp.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\glow-extras\glfw\LambdaPipeline.hh" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\CameraController.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\RenderInfo.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\Scene.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\SceneConfig.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\ViewerApp.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\ViewerRenderer.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\canvas.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\configure.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\detail\MeshDefinition.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\detail\MeshShaderBuilder.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\detail\command_queue.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\layout.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\make_renderable.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\materials\ColorMapping.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\materials\Masking.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\materials\Texturing.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\picking.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\GeometricRenderable.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\LabelRenderable.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\LineRenderable.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\MeshRenderable.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\PointRenderable.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\QuadricRenderable.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\Renderable.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\TextureRenderable.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\Vector2DRenderable.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\view.cc" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\CameraController.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\RenderInfo.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\Scene.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\SceneConfig.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\ViewerApp.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\ViewerRenderer.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\aabb.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\canvas.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\configure.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\detail\MeshAttribute.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\detail\MeshDefinition.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\detail\MeshInfo.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\detail\MeshShaderBuilder.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\detail\command_queue.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\detail\config_structs_impl.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\detail\uniform_info.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\experimental.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\fwd.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\layout.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\make_renderable.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\materials\ColorMapping.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\materials\Masking.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\materials\Texturing.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\materials\envmap.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\materials\mapping.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\materials\masked.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\materials\materials.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\materials\textured.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\geometry\GeometricRenderableBuilder.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\geometry\LineBuilder.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\geometry\PointBuilder.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\geometry\PolygonBuilder.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\geometry\lines.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\geometry\points.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\geometry\polygons.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\gizmos\PlaneBuilder.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\gizmos\floor.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\gizmos\gizmos.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\gizmos\grid.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\gizmos\plane.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\object.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\objects.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\other\file.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\other\labels.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\other\texts.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\picking.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\GeometricRenderable.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\LabelRenderable.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\LineRenderable.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\MeshRenderable.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\PointRenderable.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\QuadricRenderable.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\Renderable.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\TextureRenderable.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\Vector2DRenderable.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\traits.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\view.hh" />
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\shader\glow-viewer\mesh.fsh">
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\shader\glow-viewer\mesh.shadow.fsh">
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\shader\glow-viewer\mesh.vsh">
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\shader\glow-viewer\pp.accum.fsh">
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\shader\glow-viewer\pp.bg.fsh">
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\shader\glow-viewer\pp.ground.fsh">
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\shader\glow-viewer\pp.outline.fsh">
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\shader\glow-viewer\pp.output.fsh">
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\shader\glow-viewer\pp.pickvis.fsh">
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\shader\glow-viewer\pp.shadow.fsh">
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\shader\glow-viewer\pp.ssao.fsh">
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\shader\glow-viewer\pp.vsh">
+    </None>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\glow-extras\generated\debugging_embed_shaders.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\glow-extras\generated\material_embed_shaders.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\glow-extras\generated\pipeline_embed_shaders.cc" />
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\glow-extras\generated\viewer_embed_shaders.cc" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\glow-extras\generated\debugging_embed_shaders.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\glow-extras\generated\material_embed_shaders.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\glow-extras\generated\pipeline_embed_shaders.hh" />
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\glow-extras\generated\viewer_embed_shaders.hh" />
+    <Natvis Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\clean-core\clean_core.natvis">
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\ZERO_CHECK.vcxproj">
+      <Project>{E742F3EE-D1AB-3C63-883E-80927E57676B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\extern\clean-core\clean-core.vcxproj">
+      <Project>{FA0F7974-551D-3FE2-9561-F1740E3FD49D}</Project>
+      <Name>clean-core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\extern\glow\extern\glad\glad.vcxproj">
+      <Project>{2EF2381A-D05D-3E1A-BB9C-FC24E463D1C2}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\extern\glfw\src\glfw.vcxproj">
+      <Project>{85EDE3C2-47B8-3033-B58A-1D40AE1979AF}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\extern\glow\glow.vcxproj">
+      <Project>{1FB1A45F-1E8F-38B0-BA24-B7F1885E9020}</Project>
+      <Name>glow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\extern\imgui\imgui.vcxproj">
+      <Project>{B531AA5B-8FB4-306F-A65D-DEDECFD34FD9}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\extern\polymesh\polymesh.vcxproj">
+      <Project>{7C9AFA18-3D73-3D95-BA92-E841BB85A026}</Project>
+      <Name>polymesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\extern\typed-geometry\typed-geometry.vcxproj">
+      <Project>{4E349440-407D-3649-97AC-198F27BBDEAB}</Project>
+      <Name>typed-geometry</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

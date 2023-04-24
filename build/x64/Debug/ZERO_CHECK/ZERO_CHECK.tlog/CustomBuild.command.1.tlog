@@ -1,0 +1,10 @@
+^C:\USERS\DRTGHOSH\DOCUMENTS\ALL_OF_RWTH\SEMESTER2\GEOMETRYPROCESSINGCOURSE\EXERCISES\GEOMETRYPROCESSINGFRAMEWORK\BUILD\CMAKEFILES\31A7522FAC1B181DC3AA75398E020992\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework -BC:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/build/GeometryProcessingFramework.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

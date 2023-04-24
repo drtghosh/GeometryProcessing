@@ -1,0 +1,962 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\input\glow-extras\input\InputSnapshot.cc">
+      <Filter>input\glow-extras\input</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\input\glow-extras\input\InputState.cc">
+      <Filter>input\glow-extras\input</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\colors\glow-extras\colors\color.cc">
+      <Filter>colors\glow-extras\colors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\colors\glow-extras\colors\colormap.cc">
+      <Filter>colors\glow-extras\colors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\CameraUtils.cc">
+      <Filter>camera\glow-extras\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\Handle.cc">
+      <Filter>camera\glow-extras\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\Lens.cc">
+      <Filter>camera\glow-extras\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\controllers\LookAroundController.cc">
+      <Filter>camera\glow-extras\camera\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\controllers\TargetOrbitController.cc">
+      <Filter>camera\glow-extras\camera\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\controllers\WASDController.cc">
+      <Filter>camera\glow-extras\camera\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\legacy\FixedCamera.cc">
+      <Filter>camera\glow-extras\camera\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\legacy\GenericCamera.cc">
+      <Filter>camera\glow-extras\camera\legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\shader\glow-extras\shader\Output.cc">
+      <Filter>shader\glow-extras\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\shader\glow-extras\shader\PostProcessing.cc">
+      <Filter>shader\glow-extras\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\CoordFrame.cc">
+      <Filter>geometry\glow-extras\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\FullscreenTriangle.cc">
+      <Filter>geometry\glow-extras\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\Line.cc">
+      <Filter>geometry\glow-extras\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\Quad.cc">
+      <Filter>geometry\glow-extras\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\UVSphere.cc">
+      <Filter>geometry\glow-extras\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\RenderPipeline.cc">
+      <Filter>pipeline\glow-extras\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\RenderScene.cc">
+      <Filter>pipeline\glow-extras\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\lights\Light.cc">
+      <Filter>pipeline\glow-extras\pipeline\lights</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\RenderStage.cc">
+      <Filter>pipeline\glow-extras\pipeline\stages</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\StageCamera.cc">
+      <Filter>pipeline\glow-extras\pipeline\stages</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\AO\AOGlobalBuffer.cc">
+      <Filter>pipeline\glow-extras\pipeline\stages\implementations\AO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\AO\AOPerPassBuffer.cc">
+      <Filter>pipeline\glow-extras\pipeline\stages\implementations\AO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\AOStage.cc">
+      <Filter>pipeline\glow-extras\pipeline\stages\implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\DepthPreStage.cc">
+      <Filter>pipeline\glow-extras\pipeline\stages\implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\LightingCombinationStage.cc">
+      <Filter>pipeline\glow-extras\pipeline\stages\implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\OITStage.cc">
+      <Filter>pipeline\glow-extras\pipeline\stages\implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\OpaqueStage.cc">
+      <Filter>pipeline\glow-extras\pipeline\stages\implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\OutputStage.cc">
+      <Filter>pipeline\glow-extras\pipeline\stages\implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\PostprocessingStage.cc">
+      <Filter>pipeline\glow-extras\pipeline\stages\implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\ShadowStage.cc">
+      <Filter>pipeline\glow-extras\pipeline\stages\implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\TemporalResolveStage.cc">
+      <Filter>pipeline\glow-extras\pipeline\stages\implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\glow-extras\debugging\DebugOverlay.cc">
+      <Filter>debugging\glow-extras\debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\glow-extras\debugging\DebugRenderer.cc">
+      <Filter>debugging\glow-extras\debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\glow-extras\debugging\imgui-util.cc">
+      <Filter>debugging\glow-extras\debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\glow-extras\debugging\profiling\ImguiMetric.cc">
+      <Filter>debugging\glow-extras\debugging\profiling</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\glow-extras\debugging\profiling\ProfilingOverlay.cc">
+      <Filter>debugging\glow-extras\debugging\profiling</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\material\glow-extras\material\IBL.cc">
+      <Filter>material\glow-extras\material</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\material\glow-extras\material\data\DefaultEnvmapData.cc">
+      <Filter>material\glow-extras\material\data</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\CpuTimer.cc">
+      <Filter>timing\glow-extras\timing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\Cycler.cc">
+      <Filter>timing\glow-extras\timing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\FrameCounter.cc">
+      <Filter>timing\glow-extras\timing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\GlowAction.cc">
+      <Filter>timing\glow-extras\timing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\GlowActionLabel.cc">
+      <Filter>timing\glow-extras\timing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\GpuTimekeeper.cc">
+      <Filter>timing\glow-extras\timing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\GpuTimer.cc">
+      <Filter>timing\glow-extras\timing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\Metric.cc">
+      <Filter>timing\glow-extras\timing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\backend\nanovg\fontstash.cc">
+      <Filter>vector\glow-extras\vector\backend\nanovg</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\backend\nanovg\nanovg.cc">
+      <Filter>vector\glow-extras\vector\backend\nanovg</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\backend\nanovg\nanovg_gl.cc">
+      <Filter>vector\glow-extras\vector\backend\nanovg</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\backend\opengl.cc">
+      <Filter>vector\glow-extras\vector\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\debug.cc">
+      <Filter>vector\glow-extras\vector</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\fonts.cc">
+      <Filter>vector\glow-extras\vector</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\fonts\FiraMono-Regular.cc">
+      <Filter>vector\fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\fonts\FiraSans-Regular.cc">
+      <Filter>vector\fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\glow-extras\glfw\GlfwApp.cc">
+      <Filter>glfw\glow-extras\glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\glow-extras\glfw\GlfwContext.cc">
+      <Filter>glfw\glow-extras\glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\glow-extras\glfw\LambdaApp.cc">
+      <Filter>glfw\glow-extras\glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\glow-extras\glfw\LambdaPipeline.cc">
+      <Filter>glfw\glow-extras\glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\CameraController.cc">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\RenderInfo.cc">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\Scene.cc">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\SceneConfig.cc">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\ViewerApp.cc">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\ViewerRenderer.cc">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\canvas.cc">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\configure.cc">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\detail\MeshDefinition.cc">
+      <Filter>viewer\glow-extras\viewer\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\detail\MeshShaderBuilder.cc">
+      <Filter>viewer\glow-extras\viewer\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\detail\command_queue.cc">
+      <Filter>viewer\glow-extras\viewer\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\layout.cc">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\make_renderable.cc">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\materials\ColorMapping.cc">
+      <Filter>viewer\glow-extras\viewer\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\materials\Masking.cc">
+      <Filter>viewer\glow-extras\viewer\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\materials\Texturing.cc">
+      <Filter>viewer\glow-extras\viewer\materials</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\picking.cc">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\GeometricRenderable.cc">
+      <Filter>viewer\glow-extras\viewer\renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\LabelRenderable.cc">
+      <Filter>viewer\glow-extras\viewer\renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\LineRenderable.cc">
+      <Filter>viewer\glow-extras\viewer\renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\MeshRenderable.cc">
+      <Filter>viewer\glow-extras\viewer\renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\PointRenderable.cc">
+      <Filter>viewer\glow-extras\viewer\renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\QuadricRenderable.cc">
+      <Filter>viewer\glow-extras\viewer\renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\Renderable.cc">
+      <Filter>viewer\glow-extras\viewer\renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\TextureRenderable.cc">
+      <Filter>viewer\glow-extras\viewer\renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\Vector2DRenderable.cc">
+      <Filter>viewer\glow-extras\viewer\renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\view.cc">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\glow-extras\generated\debugging_embed_shaders.cc">
+      <Filter>generated\glow-extras\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\glow-extras\generated\material_embed_shaders.cc">
+      <Filter>generated\glow-extras\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\glow-extras\generated\pipeline_embed_shaders.cc">
+      <Filter>generated\glow-extras\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\glow-extras\generated\viewer_embed_shaders.cc">
+      <Filter>generated\glow-extras\generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\input\glow-extras\input\InputSnapshot.hh">
+      <Filter>input\glow-extras\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\input\glow-extras\input\InputState.hh">
+      <Filter>input\glow-extras\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\colors\glow-extras\colors\color.hh">
+      <Filter>colors\glow-extras\colors</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\colors\glow-extras\colors\colormap.hh">
+      <Filter>colors\glow-extras\colors</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\colors\glow-extras\colors\helper.hh">
+      <Filter>colors\glow-extras\colors</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\colors\glow-extras\colors\material_colors.hh">
+      <Filter>colors\glow-extras\colors</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\CameraBase.hh">
+      <Filter>camera\glow-extras\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\CameraUtils.hh">
+      <Filter>camera\glow-extras\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\Handle.hh">
+      <Filter>camera\glow-extras\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\Lens.hh">
+      <Filter>camera\glow-extras\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\SmoothedCamera.hh">
+      <Filter>camera\glow-extras\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\controllers\LookAroundController.hh">
+      <Filter>camera\glow-extras\camera\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\controllers\TargetOrbitController.hh">
+      <Filter>camera\glow-extras\camera\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\controllers\WASDController.hh">
+      <Filter>camera\glow-extras\camera\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\legacy\FixedCamera.hh">
+      <Filter>camera\glow-extras\camera\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\camera\glow-extras\camera\legacy\GenericCamera.hh">
+      <Filter>camera\glow-extras\camera\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\shader\glow-extras\shader\Output.hh">
+      <Filter>shader\glow-extras\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\shader\glow-extras\shader\PostProcessing.hh">
+      <Filter>shader\glow-extras\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\CoordFrame.hh">
+      <Filter>geometry\glow-extras\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\Cube.hh">
+      <Filter>geometry\glow-extras\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\CubeBrush.hh">
+      <Filter>geometry\glow-extras\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\FullscreenTriangle.hh">
+      <Filter>geometry\glow-extras\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\Line.hh">
+      <Filter>geometry\glow-extras\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\MeshBuilder.hh">
+      <Filter>geometry\glow-extras\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\Quad.hh">
+      <Filter>geometry\glow-extras\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\geometry\glow-extras\geometry\UVSphere.hh">
+      <Filter>geometry\glow-extras\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\RenderCallback.hh">
+      <Filter>pipeline\glow-extras\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\RenderPipeline.hh">
+      <Filter>pipeline\glow-extras\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\RenderScene.hh">
+      <Filter>pipeline\glow-extras\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\Settings.hh">
+      <Filter>pipeline\glow-extras\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\fwd.hh">
+      <Filter>pipeline\glow-extras\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\lights\Light.hh">
+      <Filter>pipeline\glow-extras\pipeline\lights</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\RenderStage.hh">
+      <Filter>pipeline\glow-extras\pipeline\stages</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\StageCamera.hh">
+      <Filter>pipeline\glow-extras\pipeline\stages</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\AO\AOGlobalBuffer.hh">
+      <Filter>pipeline\glow-extras\pipeline\stages\implementations\AO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\AO\AOPerPassBuffer.hh">
+      <Filter>pipeline\glow-extras\pipeline\stages\implementations\AO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\AOStage.hh">
+      <Filter>pipeline\glow-extras\pipeline\stages\implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\DepthPreStage.hh">
+      <Filter>pipeline\glow-extras\pipeline\stages\implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\LightingCombinationStage.hh">
+      <Filter>pipeline\glow-extras\pipeline\stages\implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\OITStage.hh">
+      <Filter>pipeline\glow-extras\pipeline\stages\implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\OpaqueStage.hh">
+      <Filter>pipeline\glow-extras\pipeline\stages\implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\OutputStage.hh">
+      <Filter>pipeline\glow-extras\pipeline\stages\implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\PostprocessingStage.hh">
+      <Filter>pipeline\glow-extras\pipeline\stages\implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\ShadowStage.hh">
+      <Filter>pipeline\glow-extras\pipeline\stages\implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\stages\implementations\TemporalResolveStage.hh">
+      <Filter>pipeline\glow-extras\pipeline\stages\implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\utility\GeometryMath.hh">
+      <Filter>pipeline\glow-extras\pipeline\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\glow-extras\pipeline\utility\SubpixelJitter.hh">
+      <Filter>pipeline\glow-extras\pipeline\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\pipeline\shader\glow-pipeline\internal\common\globals.hh">
+      <Filter>pipeline\shader\glow-pipeline\internal\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\glow-extras\debugging\DebugOverlay.hh">
+      <Filter>debugging\glow-extras\debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\glow-extras\debugging\DebugRenderer.hh">
+      <Filter>debugging\glow-extras\debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\glow-extras\debugging\imgui-util.hh">
+      <Filter>debugging\glow-extras\debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\glow-extras\debugging\profiling\ImguiMetric.hh">
+      <Filter>debugging\glow-extras\debugging\profiling</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\glow-extras\debugging\profiling\ProfilingOverlay.hh">
+      <Filter>debugging\glow-extras\debugging\profiling</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\material\glow-extras\material\GGXMaterial.hh">
+      <Filter>material\glow-extras\material</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\material\glow-extras\material\IBL.hh">
+      <Filter>material\glow-extras\material</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\material\glow-extras\material\data\DefaultEnvmapData.hh">
+      <Filter>material\glow-extras\material\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\CpuTimer.hh">
+      <Filter>timing\glow-extras\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\Cycler.hh">
+      <Filter>timing\glow-extras\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\FrameCounter.hh">
+      <Filter>timing\glow-extras\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\GlowAction.hh">
+      <Filter>timing\glow-extras\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\GlowActionLabel.hh">
+      <Filter>timing\glow-extras\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\GpuTimekeeper.hh">
+      <Filter>timing\glow-extras\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\GpuTimer.hh">
+      <Filter>timing\glow-extras\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\timing\glow-extras\timing\Metric.hh">
+      <Filter>timing\glow-extras\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\backend\nanovg\fontstash.hh">
+      <Filter>vector\glow-extras\vector\backend\nanovg</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\backend\nanovg\nanovg.hh">
+      <Filter>vector\glow-extras\vector\backend\nanovg</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\backend\nanovg\nanovg_gl.hh">
+      <Filter>vector\glow-extras\vector\backend\nanovg</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\backend\nanovg\nanovg_gl_utils.hh">
+      <Filter>vector\glow-extras\vector\backend\nanovg</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\backend\opengl.hh">
+      <Filter>vector\glow-extras\vector\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\cmd2D.hh">
+      <Filter>vector\glow-extras\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\debug.hh">
+      <Filter>vector\glow-extras\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\fonts.hh">
+      <Filter>vector\glow-extras\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\fwd.hh">
+      <Filter>vector\glow-extras\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\graphics2D.hh">
+      <Filter>vector\glow-extras\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\image2D.hh">
+      <Filter>vector\glow-extras\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\text_align.hh">
+      <Filter>vector\glow-extras\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\vector\glow-extras\vector\vector.hh">
+      <Filter>vector\glow-extras\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\glow-extras\glfw\GlfwApp.hh">
+      <Filter>glfw\glow-extras\glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\glow-extras\glfw\GlfwContext.hh">
+      <Filter>glfw\glow-extras\glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\glow-extras\glfw\LambdaApp.hh">
+      <Filter>glfw\glow-extras\glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\glfw\glow-extras\glfw\LambdaPipeline.hh">
+      <Filter>glfw\glow-extras\glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\CameraController.hh">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\RenderInfo.hh">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\Scene.hh">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\SceneConfig.hh">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\ViewerApp.hh">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\ViewerRenderer.hh">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\aabb.hh">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\canvas.hh">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\configure.hh">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\detail\MeshAttribute.hh">
+      <Filter>viewer\glow-extras\viewer\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\detail\MeshDefinition.hh">
+      <Filter>viewer\glow-extras\viewer\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\detail\MeshInfo.hh">
+      <Filter>viewer\glow-extras\viewer\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\detail\MeshShaderBuilder.hh">
+      <Filter>viewer\glow-extras\viewer\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\detail\command_queue.hh">
+      <Filter>viewer\glow-extras\viewer\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\detail\config_structs_impl.hh">
+      <Filter>viewer\glow-extras\viewer\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\detail\uniform_info.hh">
+      <Filter>viewer\glow-extras\viewer\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\experimental.hh">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\fwd.hh">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\layout.hh">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\make_renderable.hh">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\materials\ColorMapping.hh">
+      <Filter>viewer\glow-extras\viewer\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\materials\Masking.hh">
+      <Filter>viewer\glow-extras\viewer\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\materials\Texturing.hh">
+      <Filter>viewer\glow-extras\viewer\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\materials\envmap.hh">
+      <Filter>viewer\glow-extras\viewer\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\materials\mapping.hh">
+      <Filter>viewer\glow-extras\viewer\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\materials\masked.hh">
+      <Filter>viewer\glow-extras\viewer\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\materials\materials.hh">
+      <Filter>viewer\glow-extras\viewer\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\materials\textured.hh">
+      <Filter>viewer\glow-extras\viewer\materials</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\geometry\GeometricRenderableBuilder.hh">
+      <Filter>viewer\glow-extras\viewer\objects\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\geometry\LineBuilder.hh">
+      <Filter>viewer\glow-extras\viewer\objects\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\geometry\PointBuilder.hh">
+      <Filter>viewer\glow-extras\viewer\objects\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\geometry\PolygonBuilder.hh">
+      <Filter>viewer\glow-extras\viewer\objects\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\geometry\lines.hh">
+      <Filter>viewer\glow-extras\viewer\objects\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\geometry\points.hh">
+      <Filter>viewer\glow-extras\viewer\objects\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\geometry\polygons.hh">
+      <Filter>viewer\glow-extras\viewer\objects\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\gizmos\PlaneBuilder.hh">
+      <Filter>viewer\glow-extras\viewer\objects\gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\gizmos\floor.hh">
+      <Filter>viewer\glow-extras\viewer\objects\gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\gizmos\gizmos.hh">
+      <Filter>viewer\glow-extras\viewer\objects\gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\gizmos\grid.hh">
+      <Filter>viewer\glow-extras\viewer\objects\gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\gizmos\plane.hh">
+      <Filter>viewer\glow-extras\viewer\objects\gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\object.hh">
+      <Filter>viewer\glow-extras\viewer\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\objects.hh">
+      <Filter>viewer\glow-extras\viewer\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\other\file.hh">
+      <Filter>viewer\glow-extras\viewer\objects\other</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\other\labels.hh">
+      <Filter>viewer\glow-extras\viewer\objects\other</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\objects\other\texts.hh">
+      <Filter>viewer\glow-extras\viewer\objects\other</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\picking.hh">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\GeometricRenderable.hh">
+      <Filter>viewer\glow-extras\viewer\renderables</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\LabelRenderable.hh">
+      <Filter>viewer\glow-extras\viewer\renderables</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\LineRenderable.hh">
+      <Filter>viewer\glow-extras\viewer\renderables</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\MeshRenderable.hh">
+      <Filter>viewer\glow-extras\viewer\renderables</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\PointRenderable.hh">
+      <Filter>viewer\glow-extras\viewer\renderables</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\QuadricRenderable.hh">
+      <Filter>viewer\glow-extras\viewer\renderables</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\Renderable.hh">
+      <Filter>viewer\glow-extras\viewer\renderables</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\TextureRenderable.hh">
+      <Filter>viewer\glow-extras\viewer\renderables</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\renderables\Vector2DRenderable.hh">
+      <Filter>viewer\glow-extras\viewer\renderables</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\traits.hh">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\glow-extras\viewer\view.hh">
+      <Filter>viewer\glow-extras\viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\glow-extras\generated\debugging_embed_shaders.hh">
+      <Filter>generated\glow-extras\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\glow-extras\generated\material_embed_shaders.hh">
+      <Filter>generated\glow-extras\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\glow-extras\generated\pipeline_embed_shaders.hh">
+      <Filter>generated\glow-extras\generated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\generated\glow-extras\generated\viewer_embed_shaders.hh">
+      <Filter>generated\glow-extras\generated</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\clean-core\clean_core.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\shader\glow-debugging\primitive.opaque.fsh">
+      <Filter>debugging\shader\glow-debugging</Filter>
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\debugging\shader\glow-debugging\primitive.vsh">
+      <Filter>debugging\shader\glow-debugging</Filter>
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\shader\glow-viewer\mesh.fsh">
+      <Filter>viewer\shader\glow-viewer</Filter>
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\shader\glow-viewer\mesh.shadow.fsh">
+      <Filter>viewer\shader\glow-viewer</Filter>
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\shader\glow-viewer\mesh.vsh">
+      <Filter>viewer\shader\glow-viewer</Filter>
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\shader\glow-viewer\pp.accum.fsh">
+      <Filter>viewer\shader\glow-viewer</Filter>
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\shader\glow-viewer\pp.bg.fsh">
+      <Filter>viewer\shader\glow-viewer</Filter>
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\shader\glow-viewer\pp.ground.fsh">
+      <Filter>viewer\shader\glow-viewer</Filter>
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\shader\glow-viewer\pp.outline.fsh">
+      <Filter>viewer\shader\glow-viewer</Filter>
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\shader\glow-viewer\pp.output.fsh">
+      <Filter>viewer\shader\glow-viewer</Filter>
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\shader\glow-viewer\pp.pickvis.fsh">
+      <Filter>viewer\shader\glow-viewer</Filter>
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\shader\glow-viewer\pp.shadow.fsh">
+      <Filter>viewer\shader\glow-viewer</Filter>
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\shader\glow-viewer\pp.ssao.fsh">
+      <Filter>viewer\shader\glow-viewer</Filter>
+    </None>
+    <None Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow-extras\viewer\shader\glow-viewer\pp.vsh">
+      <Filter>viewer\shader\glow-viewer</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="camera">
+      <UniqueIdentifier>{60488038-61AD-3226-BBEA-3919075996DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="camera\glow-extras">
+      <UniqueIdentifier>{22A2749D-F472-3348-88E3-201C107ABFA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="camera\glow-extras\camera">
+      <UniqueIdentifier>{D874621B-B1B2-3E20-8DB9-1495DDF16337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="camera\glow-extras\camera\controllers">
+      <UniqueIdentifier>{421FB77E-CE88-3DB0-9BA7-EDB87431BF95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="camera\glow-extras\camera\legacy">
+      <UniqueIdentifier>{31993238-0A9D-3143-835C-8FE08569EAC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="colors">
+      <UniqueIdentifier>{4721E61D-48AB-3FF4-8AAD-1BB63FB92F81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="colors\glow-extras">
+      <UniqueIdentifier>{A7BCD9A2-D2FF-3D56-AE05-DCF68EDE46D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="colors\glow-extras\colors">
+      <UniqueIdentifier>{A74FDBFF-D75C-3FC8-A42A-5F84FF2D2170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debugging">
+      <UniqueIdentifier>{D6CC8495-AE5F-3A43-B6D7-851562607229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debugging\glow-extras">
+      <UniqueIdentifier>{982A1340-4250-3579-9917-48EA2B179593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debugging\glow-extras\debugging">
+      <UniqueIdentifier>{DB3A81AB-B36B-3057-B6C6-F185E25774DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debugging\glow-extras\debugging\profiling">
+      <UniqueIdentifier>{CAC94E56-5BCB-3DB9-9F08-EBEC9B55DCC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debugging\shader">
+      <UniqueIdentifier>{566B0FB8-88E5-3BB6-8955-77F870D0E143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debugging\shader\glow-debugging">
+      <UniqueIdentifier>{3192A07D-C496-30FA-9A87-D57388BD3A05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="generated">
+      <UniqueIdentifier>{88010321-1E32-39C2-942A-CF6A9F825439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="generated\glow-extras">
+      <UniqueIdentifier>{8A4CE249-80C3-39FA-AF0D-78001E194004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="generated\glow-extras\generated">
+      <UniqueIdentifier>{A91E327C-BED1-309C-BA9F-2466AACCDA7E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geometry">
+      <UniqueIdentifier>{F2F2A825-62FC-3BB1-AFB6-99AB94516EB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geometry\glow-extras">
+      <UniqueIdentifier>{DCDF9E32-62D6-3FE8-8396-DCD2EFDB892B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geometry\glow-extras\geometry">
+      <UniqueIdentifier>{C8E6E62F-73BC-322A-B378-76868EA1061B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glfw">
+      <UniqueIdentifier>{954C19BF-61E3-37E5-9676-C1ED7A6D2896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glfw\glow-extras">
+      <UniqueIdentifier>{E79A7647-0495-35AE-B4EC-EFB5A6EDB512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glfw\glow-extras\glfw">
+      <UniqueIdentifier>{1BA5D0B4-D4B1-3BF0-A4C0-B0960B63FE86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{FAD0942D-A728-3FA2-A5EB-45AEBC2A7C8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input\glow-extras">
+      <UniqueIdentifier>{CBF9C402-8EDD-3412-A072-8D2EC20AAA6D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input\glow-extras\input">
+      <UniqueIdentifier>{2C9A8D5D-244B-3A51-9383-1FE8C72F0B32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="material">
+      <UniqueIdentifier>{97636701-A0E9-3320-A302-80C5055CDF1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="material\glow-extras">
+      <UniqueIdentifier>{E4ECFC1D-9D5C-3F05-AEC1-DD1FD2E1EAA9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="material\glow-extras\material">
+      <UniqueIdentifier>{FA6E3111-3C20-3C2F-8B57-8699CC28D8D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="material\glow-extras\material\data">
+      <UniqueIdentifier>{87F8C3E3-0D47-3414-A02B-B6B93CD227DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pipeline">
+      <UniqueIdentifier>{32FCCC95-AC90-31C3-B1D5-729F32ED01D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pipeline\glow-extras">
+      <UniqueIdentifier>{E363EE19-DEF7-3858-A501-A165FD8AF080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pipeline\glow-extras\pipeline">
+      <UniqueIdentifier>{AF33941B-B5C0-30C7-A952-B6EBB38D6299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pipeline\glow-extras\pipeline\lights">
+      <UniqueIdentifier>{2A388A75-35A5-38F0-9B1D-6182E7F97BA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pipeline\glow-extras\pipeline\stages">
+      <UniqueIdentifier>{332E3340-834F-31DB-BC4D-8CAA667D25F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pipeline\glow-extras\pipeline\stages\implementations">
+      <UniqueIdentifier>{2D719E45-6B60-3BEF-A2C7-76CCBB14D100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pipeline\glow-extras\pipeline\stages\implementations\AO">
+      <UniqueIdentifier>{53CF7C9E-6C0E-33A7-A868-74CBD4A08CDC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pipeline\glow-extras\pipeline\utility">
+      <UniqueIdentifier>{56008DD3-29C5-3A5B-856E-59C1CEC3F2D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pipeline\shader">
+      <UniqueIdentifier>{428DD40C-71CA-38D8-B68C-5E36F92ECC49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pipeline\shader\glow-pipeline">
+      <UniqueIdentifier>{31C9FBA8-9DC4-3C25-9D29-73A3AB3353B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pipeline\shader\glow-pipeline\internal">
+      <UniqueIdentifier>{E3D831E2-3F60-3E5C-83FD-F730FA0FBBBA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pipeline\shader\glow-pipeline\internal\common">
+      <UniqueIdentifier>{E495180D-D8EB-3266-A79F-E33D535737F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{A5B8E5C4-2BE2-3620-BF72-07E9A3D15C41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\glow-extras">
+      <UniqueIdentifier>{C5259BE3-7A0C-3AE1-8944-229597BCE08C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\glow-extras\shader">
+      <UniqueIdentifier>{6EC0D734-916A-32D1-BD71-D82EE0F8CB98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="timing">
+      <UniqueIdentifier>{C2D8FE4B-3486-3175-B041-6601B21A5ACA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="timing\glow-extras">
+      <UniqueIdentifier>{42229631-6328-3D4E-BDA0-213C2C486015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="timing\glow-extras\timing">
+      <UniqueIdentifier>{0BEF5030-5213-3F14-A908-64F2FD1BBCCC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vector">
+      <UniqueIdentifier>{02645FAA-FC89-39A5-8C55-6743B2537851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vector\fonts">
+      <UniqueIdentifier>{8D351CB1-880A-31CF-9C59-3FEC1769D0FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vector\glow-extras">
+      <UniqueIdentifier>{318A4614-6CEF-302C-BFC7-B3308883D2CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vector\glow-extras\vector">
+      <UniqueIdentifier>{9F71A1E5-DF76-3B2B-8C84-D82D644F5054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vector\glow-extras\vector\backend">
+      <UniqueIdentifier>{5B37E9FF-56F3-38B9-B74E-20D34493CC25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vector\glow-extras\vector\backend\nanovg">
+      <UniqueIdentifier>{7762012C-6BCE-31CC-8D59-51C66B0A3280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="viewer">
+      <UniqueIdentifier>{B14994DB-5CAA-33D8-BE4B-13C30BA79763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="viewer\glow-extras">
+      <UniqueIdentifier>{0F1C5958-97E2-30D2-A3BF-DA954D0A8861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="viewer\glow-extras\viewer">
+      <UniqueIdentifier>{35E5B1FD-3FF8-376C-A87F-5E0676C9EDF3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="viewer\glow-extras\viewer\detail">
+      <UniqueIdentifier>{E49306F5-B764-331F-ABC4-B30A95B7C518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="viewer\glow-extras\viewer\materials">
+      <UniqueIdentifier>{8F321ECB-DF1B-3BD2-8822-A5AAEC34CC25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="viewer\glow-extras\viewer\objects">
+      <UniqueIdentifier>{F9814FFB-79AE-38A1-ADF9-9D9624857B52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="viewer\glow-extras\viewer\objects\geometry">
+      <UniqueIdentifier>{5218F78E-CA96-3D58-A01C-AEDC69FC4CA4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="viewer\glow-extras\viewer\objects\gizmos">
+      <UniqueIdentifier>{AC10AEB6-333C-38B2-A4B5-E30A15C19CE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="viewer\glow-extras\viewer\objects\other">
+      <UniqueIdentifier>{7A11D0E6-F62C-3292-A09A-2F8D5202C61B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="viewer\glow-extras\viewer\renderables">
+      <UniqueIdentifier>{23BE124B-3AC5-3C5F-8929-01FDA55CB69C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="viewer\shader">
+      <UniqueIdentifier>{B6D09A0F-DA89-3915-B509-DBC4F24C06A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="viewer\shader\glow-viewer">
+      <UniqueIdentifier>{42282198-E001-308F-9DD5-BFEF6E20269F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

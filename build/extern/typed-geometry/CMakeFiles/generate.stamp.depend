@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/build/extern/typed-geometry/unitybuild_0_typed-geometry.cc
+C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/extern/typed-geometry/CMakeLists.txt
+C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/extern/typed-geometry/cmake/IsCPUExtensionSupported.cmake
+C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/extern/typed-geometry/cmake/checks/cpu_bmi2.cc
+C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/extern/typed-geometry/cmake/checks/cpu_lzcnt.cc

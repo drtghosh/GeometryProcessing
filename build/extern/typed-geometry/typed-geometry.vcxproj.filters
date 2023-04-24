@@ -1,0 +1,687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\extern\typed-geometry\unitybuild_0_typed-geometry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\matrix\eigenvalues.cc">
+      <Filter>typed-geometry\functions\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\color-literals.hh">
+      <Filter>typed-geometry\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\color_traits.hh">
+      <Filter>typed-geometry\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\comp_traits.hh">
+      <Filter>typed-geometry\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\constexpr_helper.hh">
+      <Filter>typed-geometry\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\constructors-fun.hh">
+      <Filter>typed-geometry\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\errors.hh">
+      <Filter>typed-geometry\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\iterators.hh">
+      <Filter>typed-geometry\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\iterators\it_range.hh">
+      <Filter>typed-geometry\detail\iterators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\literals.hh">
+      <Filter>typed-geometry\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\macros.hh">
+      <Filter>typed-geometry\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\noise\perlin.hh">
+      <Filter>typed-geometry\detail\noise</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\noise\simplex.hh">
+      <Filter>typed-geometry\detail\noise</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\noise_helper.hh">
+      <Filter>typed-geometry\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\operators.hh">
+      <Filter>typed-geometry\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\operators\common.hh">
+      <Filter>typed-geometry\detail\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\operators\ops_angle.hh">
+      <Filter>typed-geometry\detail\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\operators\ops_color.hh">
+      <Filter>typed-geometry\detail\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\operators\ops_comp.hh">
+      <Filter>typed-geometry\detail\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\operators\ops_dir.hh">
+      <Filter>typed-geometry\detail\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\operators\ops_mat.hh">
+      <Filter>typed-geometry\detail\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\operators\ops_pos.hh">
+      <Filter>typed-geometry\detail\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\operators\ops_quadric.hh">
+      <Filter>typed-geometry\detail\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\operators\ops_size.hh">
+      <Filter>typed-geometry\detail\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\operators\ops_triangle.hh">
+      <Filter>typed-geometry\detail\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\operators\ops_vec.hh">
+      <Filter>typed-geometry\detail\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\operators\subscript.hh">
+      <Filter>typed-geometry\detail\operators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\optional.hh">
+      <Filter>typed-geometry\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\scalar_traits.hh">
+      <Filter>typed-geometry\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\special_values.hh">
+      <Filter>typed-geometry\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\tg_traits.hh">
+      <Filter>typed-geometry\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\detail\utility.hh">
+      <Filter>typed-geometry\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\feature\assert.hh">
+      <Filter>typed-geometry\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\feature\basic.hh">
+      <Filter>typed-geometry\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\feature\bezier.hh">
+      <Filter>typed-geometry\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\feature\colors.hh">
+      <Filter>typed-geometry\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\feature\fixed_int.hh">
+      <Filter>typed-geometry\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\feature\fwd_diff.hh">
+      <Filter>typed-geometry\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\feature\intersections.hh">
+      <Filter>typed-geometry\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\feature\interval.hh">
+      <Filter>typed-geometry\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\feature\matrix.hh">
+      <Filter>typed-geometry\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\feature\noise.hh">
+      <Filter>typed-geometry\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\feature\objects.hh">
+      <Filter>typed-geometry\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\feature\quadric.hh">
+      <Filter>typed-geometry\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\feature\quat.hh">
+      <Filter>typed-geometry\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\feature\random.hh">
+      <Filter>typed-geometry\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\feature\std-interop.hh">
+      <Filter>typed-geometry\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\feature\swizzling.hh">
+      <Filter>typed-geometry\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\feature\tests.hh">
+      <Filter>typed-geometry\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\feature\vector.hh">
+      <Filter>typed-geometry\feature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\basic\constants.hh">
+      <Filter>typed-geometry\functions\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\basic\data_ptr.hh">
+      <Filter>typed-geometry\functions\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\basic\hash.hh">
+      <Filter>typed-geometry\functions\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\basic\limits.hh">
+      <Filter>typed-geometry\functions\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\basic\minmax.hh">
+      <Filter>typed-geometry\functions\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\basic\mix.hh">
+      <Filter>typed-geometry\functions\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\basic\predicates.hh">
+      <Filter>typed-geometry\functions\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\basic\scalar_math.hh">
+      <Filter>typed-geometry\functions\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\basic\smoothstep.hh">
+      <Filter>typed-geometry\functions\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\basic\statistics.hh">
+      <Filter>typed-geometry\functions\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\color\string-conversions.hh">
+      <Filter>typed-geometry\functions\color</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\fixed_int\conversions.hh">
+      <Filter>typed-geometry\functions\fixed_int</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\fixed_int\fixed_int.hh">
+      <Filter>typed-geometry\functions\fixed_int</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\fixed_int\fixed_int_gen.hh">
+      <Filter>typed-geometry\functions\fixed_int</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\fixed_int\fixed_uint.hh">
+      <Filter>typed-geometry\functions\fixed_int</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\fixed_int\fixed_uint_gen.hh">
+      <Filter>typed-geometry\functions\fixed_int</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\matrix\adjugate.hh">
+      <Filter>typed-geometry\functions\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\matrix\compose.hh">
+      <Filter>typed-geometry\functions\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\matrix\covariance.hh">
+      <Filter>typed-geometry\functions\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\matrix\decompose.hh">
+      <Filter>typed-geometry\functions\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\matrix\determinant.hh">
+      <Filter>typed-geometry\functions\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\matrix\diag.hh">
+      <Filter>typed-geometry\functions\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\matrix\eigenvalues.hh">
+      <Filter>typed-geometry\functions\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\matrix\inverse.hh">
+      <Filter>typed-geometry\functions\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\matrix\look_at.hh">
+      <Filter>typed-geometry\functions\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\matrix\orthographic.hh">
+      <Filter>typed-geometry\functions\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\matrix\outer_product.hh">
+      <Filter>typed-geometry\functions\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\matrix\perspective.hh">
+      <Filter>typed-geometry\functions\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\matrix\rotation.hh">
+      <Filter>typed-geometry\functions\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\matrix\scaling.hh">
+      <Filter>typed-geometry\functions\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\matrix\submatrix.hh">
+      <Filter>typed-geometry\functions\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\matrix\trace.hh">
+      <Filter>typed-geometry\functions\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\matrix\translation.hh">
+      <Filter>typed-geometry\functions\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\matrix\transpose.hh">
+      <Filter>typed-geometry\functions\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\aabb.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\any_point.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\apex.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\area.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\boundary.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\bounds.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\centroid.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\closest_points.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\contains.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\coordinates.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\direction.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\distance.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\edges.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\faces.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\frustum.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\intersection.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\normal.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\perimeter.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\plane.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\project.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\rasterize.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\segmentize.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\size.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\tangent.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\triangle.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\triangulate.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\triangulation.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\vertices.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\objects\volume.hh">
+      <Filter>typed-geometry\functions\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\quadrics\quadrics.hh">
+      <Filter>typed-geometry\functions\quadrics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\random\gaussian.hh">
+      <Filter>typed-geometry\functions\random</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\random\random.hh">
+      <Filter>typed-geometry\functions\random</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\random\random_choice.hh">
+      <Filter>typed-geometry\functions\random</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\random\shuffle.hh">
+      <Filter>typed-geometry\functions\random</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\random\uniform.hh">
+      <Filter>typed-geometry\functions\random</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\std\hash.hh">
+      <Filter>typed-geometry\functions\std</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\std\io.hh">
+      <Filter>typed-geometry\functions\std</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\std\less.hh">
+      <Filter>typed-geometry\functions\std</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\swizzling\swizzling-basic.hh">
+      <Filter>typed-geometry\functions\swizzling</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\tests\dir_tests.hh">
+      <Filter>typed-geometry\functions\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\tests\mat_tests.hh">
+      <Filter>typed-geometry\functions\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\tests\quat_tests.hh">
+      <Filter>typed-geometry\functions\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\tests\scalar_tests.hh">
+      <Filter>typed-geometry\functions\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\tests\triangle_tests.hh">
+      <Filter>typed-geometry\functions\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\tests\vec_tests.hh">
+      <Filter>typed-geometry\functions\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\vector\angle.hh">
+      <Filter>typed-geometry\functions\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\vector\cross.hh">
+      <Filter>typed-geometry\functions\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\vector\distance.hh">
+      <Filter>typed-geometry\functions\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\vector\dot.hh">
+      <Filter>typed-geometry\functions\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\vector\interpolate.hh">
+      <Filter>typed-geometry\functions\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\vector\length.hh">
+      <Filter>typed-geometry\functions\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\vector\math.hh">
+      <Filter>typed-geometry\functions\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\vector\norm.hh">
+      <Filter>typed-geometry\functions\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\vector\normalize.hh">
+      <Filter>typed-geometry\functions\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\vector\perpendicular.hh">
+      <Filter>typed-geometry\functions\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\vector\project.hh">
+      <Filter>typed-geometry\functions\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\vector\reflect.hh">
+      <Filter>typed-geometry\functions\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\vector\refract.hh">
+      <Filter>typed-geometry\functions\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\functions\vector\subvector.hh">
+      <Filter>typed-geometry\functions\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\tg-lean.hh">
+      <Filter>typed-geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\tg-std.hh">
+      <Filter>typed-geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\tg.hh">
+      <Filter>typed-geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\angle.hh">
+      <Filter>typed-geometry\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\array.hh">
+      <Filter>typed-geometry\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\bezier.hh">
+      <Filter>typed-geometry\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\capped_array.hh">
+      <Filter>typed-geometry\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\capped_vector.hh">
+      <Filter>typed-geometry\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\color.hh">
+      <Filter>typed-geometry\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\comp.hh">
+      <Filter>typed-geometry\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\dir.hh">
+      <Filter>typed-geometry\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\fwd.hh">
+      <Filter>typed-geometry\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\hsl.hh">
+      <Filter>typed-geometry\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\mat.hh">
+      <Filter>typed-geometry\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\aabb.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\box.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\capsule.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\cone.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\cylinder.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\ellipse.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\frustum.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\halfspace.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\hemisphere.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\inf_cone.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\inf_cylinder.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\inf_frustum.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\line.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\objects.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\plane.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\polygon.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\polyline.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\pyramid.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\quad.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\ray.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\segment.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\sphere.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\traits.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\triangle.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\objects\tube.hh">
+      <Filter>typed-geometry\types\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\pos.hh">
+      <Filter>typed-geometry\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\quadric.hh">
+      <Filter>typed-geometry\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\quat.hh">
+      <Filter>typed-geometry\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\random.hh">
+      <Filter>typed-geometry\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\range.hh">
+      <Filter>typed-geometry\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\scalars\default.hh">
+      <Filter>typed-geometry\types\scalars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\scalars\fixed_int.hh">
+      <Filter>typed-geometry\types\scalars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\scalars\fixed_uint.hh">
+      <Filter>typed-geometry\types\scalars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\scalars\fwd_diff.hh">
+      <Filter>typed-geometry\types\scalars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\scalars\half.hh">
+      <Filter>typed-geometry\types\scalars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\scalars\interval.hh">
+      <Filter>typed-geometry\types\scalars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\scalars\quarter.hh">
+      <Filter>typed-geometry\types\scalars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\scalars\scalars.hh">
+      <Filter>typed-geometry\types\scalars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\size.hh">
+      <Filter>typed-geometry\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\span.hh">
+      <Filter>typed-geometry\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\srgb.hh">
+      <Filter>typed-geometry\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\transform.hh">
+      <Filter>typed-geometry\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\types.hh">
+      <Filter>typed-geometry\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\src\typed-geometry\types\vec.hh">
+      <Filter>typed-geometry\types</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\typed-geometry\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\clean-core\clean_core.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1A1C3940-8137-3FAC-93C7-A9ECD04D5DE1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="typed-geometry">
+      <UniqueIdentifier>{CCD7B1AA-6E44-3CC3-A95A-996CA9F21F09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="typed-geometry\detail">
+      <UniqueIdentifier>{A62A74A3-E856-3362-8F79-318185495E78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="typed-geometry\detail\iterators">
+      <UniqueIdentifier>{02D6E935-4F5F-3A5E-B789-6E69FA420EFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="typed-geometry\detail\noise">
+      <UniqueIdentifier>{5F086487-76AA-3717-88C2-89628020C0E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="typed-geometry\detail\operators">
+      <UniqueIdentifier>{CB09B0A5-3319-3E8A-9600-72AAB8BA9E29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="typed-geometry\feature">
+      <UniqueIdentifier>{24E1E8F5-4BE8-3470-A590-98FE09B23E94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="typed-geometry\functions">
+      <UniqueIdentifier>{AB1EEB8D-20AC-31A7-A0B7-6C918D058B22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="typed-geometry\functions\basic">
+      <UniqueIdentifier>{9B7F8F3B-6111-3063-8A86-09373886F703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="typed-geometry\functions\color">
+      <UniqueIdentifier>{A082F779-051C-3381-9296-4B95988ECFDE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="typed-geometry\functions\fixed_int">
+      <UniqueIdentifier>{ECFFFCBF-D43E-32D7-AE79-A6B879B749B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="typed-geometry\functions\matrix">
+      <UniqueIdentifier>{87739E44-D4D2-38E5-A3DC-28A457103C07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="typed-geometry\functions\objects">
+      <UniqueIdentifier>{9686A290-A7F3-3FE1-A04D-8B5178295D7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="typed-geometry\functions\quadrics">
+      <UniqueIdentifier>{63EA0BB1-C8D3-382B-B0C9-154D3F8E0D1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="typed-geometry\functions\random">
+      <UniqueIdentifier>{F8A44B4E-89BE-3A34-B868-D252CD1909BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="typed-geometry\functions\std">
+      <UniqueIdentifier>{C566DF0A-B791-3F24-8AD0-9AAC423B1C37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="typed-geometry\functions\swizzling">
+      <UniqueIdentifier>{37B26698-19D8-334C-BEEC-2AD8E45A54D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="typed-geometry\functions\tests">
+      <UniqueIdentifier>{61C60C0C-0A07-31EA-92F3-05780A991F8A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="typed-geometry\functions\vector">
+      <UniqueIdentifier>{3E7A2343-2A41-396F-AFB2-2DB37CB87081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="typed-geometry\types">
+      <UniqueIdentifier>{0F8AEBED-BA38-3AAD-946D-3D78CD4D4132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="typed-geometry\types\objects">
+      <UniqueIdentifier>{AB6577DB-1CBF-3EB6-A588-0736292AA802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="typed-geometry\types\scalars">
+      <UniqueIdentifier>{76E576C7-3AAF-3E93-9872-4E8100CE653F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
