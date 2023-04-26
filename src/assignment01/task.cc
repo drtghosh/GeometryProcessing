@@ -48,15 +48,16 @@ bool task::is_delaunay(polymesh::edge_handle edge, pm::vertex_attribute<tg::pos2
     }
     else {
         float center_x = (intercept_normal_ac - intercept_normal_ab) / (slope_normal_ab - slope_normal_ac);
-        tg::pos2 const& circumcenter = { center_x, slope_normal_ab * center_x + intercept_normal_ab };
+        tg::pos2 const& circumcenter = { center_x, (slope_normal_ab * center_x) + intercept_normal_ab };
         float radius = tg::length(a - circumcenter);
         float dist_d_center = tg::length(d - circumcenter);
         if (dist_d_center < radius) {
             result = false;
         }
     }
+    std::cout << "Delauney? " << result << std::endl;
     //--- end strip ---
-
+    
     return result;
 }
 
@@ -87,16 +88,16 @@ polymesh::vertex_index task::insert_vertex(polymesh::Mesh& mesh, pm::vertex_attr
     //   You can use an std::queue as a container for edges
     //--- start strip ---
     std::queue<polymesh::edge_handle> edges_to_check;
-    //auto visited = mesh.edges().make_attribute<bool>();
-    //for (auto e : mesh.edges()) {
-        //visited[e] = false;
-    //}
+    auto visited = mesh.edges().make_attribute<bool>();
+    for (auto e : mesh.edges()) {
+        visited[e] = false;
+    }
     
-    auto inserted_vertex = v.idx.value;
+    //auto inserted_vertex = v.idx.value;
 
     for (auto f : v.all_faces()) {
         for (auto e : f.edges()) {
-            if (e.vertexA().idx.value != inserted_vertex && e.vertexB().idx.value != inserted_vertex) {
+            if (e.vertexA() != v && e.vertexB() != v) {
                 edges_to_check.push(e);
             }
         }
@@ -104,33 +105,35 @@ polymesh::vertex_index task::insert_vertex(polymesh::Mesh& mesh, pm::vertex_attr
 
     while (!edges_to_check.empty()) {
         polymesh::edge_handle current_edge = edges_to_check.front();
+        auto current_edge_idx = current_edge.idx.value;
         edges_to_check.pop();
+        std::cout << "Current edge index: " << current_edge_idx << " and edge visited: " << visited[current_edge] << std::endl;
         
-        //if (visited[current_edge]) {
-            //continue;
-        //}
-        //else {
-        //visited[current_edge] = true;
-        if (current_edge.is_boundary()) continue;
-        if (is_delaunay(current_edge, position)) {
+        if (visited[current_edge]) {
             continue;
         }
         else {
-            for (auto e : current_edge.faceA().edges()) {
-                if (e != current_edge) {
-                    //visited[e] = false;
-                    edges_to_check.push(e);
-                }
+            visited[current_edge] = true;
+            if (current_edge.is_boundary()) continue;
+            if (is_delaunay(current_edge, position)) {
+                continue;
             }
-            for (auto e : current_edge.faceB().edges()) {
-                if (e != current_edge) {
+            auto edges_faceA = current_edge.faceA().edges();
+            auto edges_faceB = current_edge.faceB().edges();
+            auto it1 = edges_faceA.begin();
+            auto it2 = edges_faceB.begin();
+            for (; it1 != edges_faceA.end(); ++it1, ++it2) {
+                if (*it1 != current_edge) {
                     //visited[e] = false;
-                    edges_to_check.push(e);
+                    edges_to_check.push(*it1);
+                }
+                if (*it2 != current_edge) {
+                    //visited[e] = false;
+                    edges_to_check.push(*it2);
                 }
             }
             mesh.edges().flip(current_edge);
         }
-        //}
     }
     //--- end strip ---
 
