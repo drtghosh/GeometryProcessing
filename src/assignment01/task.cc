@@ -86,8 +86,52 @@ polymesh::vertex_index task::insert_vertex(polymesh::Mesh& mesh, pm::vertex_attr
     //   You can check if an edge e is boundary by calling e.is_boundary()
     //   You can use an std::queue as a container for edges
     //--- start strip ---
+    std::queue<polymesh::edge_handle> edges_to_check;
+    //auto visited = mesh.edges().make_attribute<bool>();
+    //for (auto e : mesh.edges()) {
+        //visited[e] = false;
+    //}
+    
+    auto inserted_vertex = v.idx.value;
 
+    for (auto f : v.all_faces()) {
+        for (auto e : f.edges()) {
+            if (e.vertexA().idx.value != inserted_vertex && e.vertexB().idx.value != inserted_vertex) {
+                edges_to_check.push(e);
+            }
+        }
+    }
 
+    while (!edges_to_check.empty()) {
+        polymesh::edge_handle current_edge = edges_to_check.front();
+        edges_to_check.pop();
+        
+        //if (visited[current_edge]) {
+            //continue;
+        //}
+        //else {
+        //visited[current_edge] = true;
+        if (current_edge.is_boundary()) continue;
+        if (is_delaunay(current_edge, position)) {
+            continue;
+        }
+        else {
+            for (auto e : current_edge.faceA().edges()) {
+                if (e != current_edge) {
+                    //visited[e] = false;
+                    edges_to_check.push(e);
+                }
+            }
+            for (auto e : current_edge.faceB().edges()) {
+                if (e != current_edge) {
+                    //visited[e] = false;
+                    edges_to_check.push(e);
+                }
+            }
+            mesh.edges().flip(current_edge);
+        }
+        //}
+    }
     //--- end strip ---
 
     return v;
