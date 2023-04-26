@@ -35,11 +35,11 @@ bool task::is_delaunay(polymesh::edge_handle edge, pm::vertex_attribute<tg::pos2
     // is the edge delaunay or not?
     // -> circum-circle test of the four points (a,b,c,d) OR check if the projected paraboloid is convex
     //--- start strip ---
-    tg::pos2 const& mid_ab = { 1.0f * (a.x + b.x) / 2, 1.0f * (a.y + b.y) };
+    tg::pos2 const& mid_ab = { 1.0f * (a.x + b.x) / 2, 1.0f * (a.y + b.y) / 2 };
     float slope_normal_ab = -1.0f * (b.x - a.x) / (b.y - a.y);
     float intercept_normal_ab = mid_ab.y - (slope_normal_ab * mid_ab.x);
 
-    tg::pos2 const& mid_ac = { 1.0f * (a.x + c.x) / 2, 1.0f * (a.y + c.y) };
+    tg::pos2 const& mid_ac = { 1.0f * (a.x + c.x) / 2, 1.0f * (a.y + c.y) / 2 };
     float slope_normal_ac = -1.0f * (c.x - a.x) / (c.y - a.y);
     float intercept_normal_ac = mid_ac.y - (slope_normal_ac * mid_ac.x);
 
