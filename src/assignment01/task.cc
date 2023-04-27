@@ -36,25 +36,46 @@ bool task::is_delaunay(polymesh::edge_handle edge, pm::vertex_attribute<tg::pos2
     // -> circum-circle test of the four points (a,b,c,d) OR check if the projected paraboloid is convex
     //--- start strip ---
     tg::pos2 const& mid_ab = { (a.x + b.x) / 2, (a.y + b.y) / 2 };
-    float slope_normal_ab = - (b.x - a.x) / (b.y - a.y);
-    float intercept_normal_ab = mid_ab.y - (slope_normal_ab * mid_ab.x);
+    float slope_normal_ab = std::numeric_limits<float>::infinity();
+    float intercept_normal_ab = std::numeric_limits<float>::infinity();
+    if (b.y != a.y) {
+        slope_normal_ab = -(b.x - a.x) / (b.y - a.y);
+        intercept_normal_ab = mid_ab.y - (slope_normal_ab * mid_ab.x);
+    }
 
     tg::pos2 const& mid_ac = { (a.x + c.x) / 2, (a.y + c.y) / 2 };
-    float slope_normal_ac = - (c.x - a.x) / (c.y - a.y);
-    float intercept_normal_ac = mid_ac.y - (slope_normal_ac * mid_ac.x);
+    float slope_normal_ac = 0.f;
+    float intercept_normal_ac = 0.f;
+    if (c.y != a.y) {
+        slope_normal_ac = -(c.x - a.x) / (c.y - a.y);
+        intercept_normal_ac = mid_ac.y - (slope_normal_ac * mid_ac.x);
+    }
 
     if (intercept_normal_ab == intercept_normal_ac) {
         result = false;
     }
     else {
-        float center_x = (intercept_normal_ac - intercept_normal_ab) / (slope_normal_ab - slope_normal_ac);
-        tg::pos2 const& circumcenter = { center_x, (slope_normal_ab * center_x) + intercept_normal_ab };
+        float center_x = 0.f;
+        tg::pos2 circumcenter = { center_x, center_x };
+        if (b.y == a.y) {
+            center_x = mid_ab.x;
+            circumcenter = { center_x, (slope_normal_ac * center_x) + intercept_normal_ac };
+        } else if (c.y == a.y) {
+            center_x = mid_ac.x;
+            circumcenter = { center_x, (slope_normal_ab * center_x) + intercept_normal_ab };
+        }
+        else {
+            center_x = (intercept_normal_ac - intercept_normal_ab) / (slope_normal_ab - slope_normal_ac);
+            circumcenter = { center_x, (slope_normal_ab * center_x) + intercept_normal_ab };
+        }
         float radius = tg::length(a - circumcenter);
         float dist_d_center = tg::length(d - circumcenter);
         if (dist_d_center < radius) {
             result = false;
         }
+        std::cout << "Circumcenter: " << circumcenter << "Radius: " << radius << "Distance: " << dist_d_center << std::endl;
     }
+    std::cout << "Lines info: " << slope_normal_ab << intercept_normal_ab << slope_normal_ac << intercept_normal_ac << std::endl;
     std::cout << "Delauney? " << result << std::endl;
     //--- end strip ---
     
