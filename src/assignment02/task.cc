@@ -1,6 +1,7 @@
 #include "task.hh"
 
 #include <typed-geometry/tg.hh>
+#include <iostream>
 
 tg::dir3 task::compute_normal(std::vector<pm::vertex_handle> const& vs, pm::vertex_attribute<tg::pos3> const& position)
 {
@@ -25,7 +26,42 @@ tg::dir3 task::compute_normal(std::vector<pm::vertex_handle> const& vs, pm::vert
      *
      */
     // ----- %< -------------------------------------------------------
+    std::vector<tg::pos3> current_points;
+    for (auto v : vs) {
+        current_points.push_back(position[v]);
+    }
+    float X = 0.0, Y = 0.0, Z = 0.0;
+    for (auto p : current_points) {
+        X += p.x;
+        Y += p.y;
+        Z += p.z;
+    }
+    X /= current_points.size();
+    Y /= current_points.size();
+    Z /= current_points.size();
+    tg::mat3 M;
+    for (auto p : current_points) {
+        tg::pos3 centered_point = { p.x - X, p.y - Y, p.z - Z };
+        float x_squared = centered_point.x * centered_point.x;
+        float y_squared = centered_point.y * centered_point.y;
+        float z_squared = centered_point.z * centered_point.z;
+        float x_pdt_y = centered_point.x * centered_point.y;
+        float x_pdt_z = centered_point.x * centered_point.z;
+        float y_pdt_z = centered_point.y * centered_point.z;
+        M[0][0] += x_squared;
+        M[0][1] += x_pdt_y;
+        M[0][2] += x_pdt_z;
+        M[1][0] += x_pdt_y;
+        M[1][1] += y_squared;
+        M[1][2] += y_pdt_z;
+        M[2][0] += x_pdt_z;
+        M[2][1] += y_pdt_z;
+        M[2][2] += z_squared;
+    }
 
+    auto eigen = tg::eigen_decomposition_symmetric(M);
+    auto sm_eigenvector = eigen[0].eigenvector;
+    normal = { sm_eigenvector.x, sm_eigenvector.y, sm_eigenvector.z };
 
     // ----- %< -------------------------------------------------------
     /*
@@ -53,7 +89,10 @@ float task::compute_mst_weight(pm::vertex_handle v0, pm::vertex_handle v1, pm::v
      *
      */
     // ----- %< -------------------------------------------------------
-
+    tg::dir3 normal0 = normal[v0];
+    tg::dir3 normal1 = normal[v1];
+    float dot_pdt = (normal0.x * normal1.x) + (normal0.y * normal1.y) + (normal0.z * normal1.z);
+    weight = 1 - abs(dot_pdt);
 
     // ----- %< -------------------------------------------------------
     /*

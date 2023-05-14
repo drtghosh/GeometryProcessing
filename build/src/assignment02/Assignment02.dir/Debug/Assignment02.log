@@ -1,5 +1,2 @@
-﻿  Building Custom Rule C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/src/assignment02/CMakeLists.txt
-  main.cc
-  task.cc
-C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\src\assignment02\task.cc(66): warning C4700: uninitialized local variable 'weight' used
+﻿  task.cc
   Assignment02.vcxproj -> C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\bin\Assignment02.exe
