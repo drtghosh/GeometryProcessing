@@ -92,7 +92,12 @@ float task::compute_mst_weight(pm::vertex_handle v0, pm::vertex_handle v1, pm::v
     tg::dir3 normal0 = normal[v0];
     tg::dir3 normal1 = normal[v1];
     float dot_pdt = (normal0.x * normal1.x) + (normal0.y * normal1.y) + (normal0.z * normal1.z);
-    weight = 1 - abs(dot_pdt);
+    float alpha = 0.0f; //manually chosen
+    tg::pos3 point0 = position[v0];
+    tg::pos3 point1 = position[v1];
+    tg::vec3 distance_vec = point1 - point0;
+    float norm_l2 = sqrt(distance_vec.x * distance_vec.x + distance_vec.y * distance_vec.y + distance_vec.z * distance_vec.z);
+    weight = (1 - abs(dot_pdt)) + alpha * norm_l2;
 
     // ----- %< -------------------------------------------------------
     /*
