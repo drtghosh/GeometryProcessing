@@ -32,8 +32,8 @@ pm::edge_attribute<float> compute_weights(pm::Mesh& mesh, pm::vertex_attribute<t
             auto dir00 = tg::normalize(nextVertex0 -v0); // Direction from first vertex of the edge to the first opposite vertex
             auto dir01 = tg::normalize(nextVertex0 -v1); // Direction from second vertex of the edge to the first opposite vertex
             weight += tg::dot(dir00,dir01) / tg::length(tg::cross(dir00,dir01)); // Computing first cotangent (cot alpha_ij) and adding to the initial weight
-            auto dir10 = nextVertex1 -v0; // Direction from first vertex of the edge to the second opposite vertex
-            auto dir11 = nextVertex1 -v1; // Direction from second vertex of the edge to the second opposite vertex
+            auto dir10 = tg::normalize(nextVertex1 -v0); // Direction from first vertex of the edge to the second opposite vertex
+            auto dir11 = tg::normalize(nextVertex1 -v1); // Direction from second vertex of the edge to the second opposite vertex
             weight += tg::dot(dir10,dir11) / tg::length(tg::cross(dir10,dir11)); // Computing second cotangent (cot beta_ij) and adding to the current weight
             weights(eh) = (weight/2); // Averaging the cotangent weights
             //--- end strip ---
