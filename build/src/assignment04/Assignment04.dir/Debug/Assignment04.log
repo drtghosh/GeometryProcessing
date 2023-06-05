@@ -1,0 +1,16 @@
+﻿  Building Custom Rule C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/src/assignment04/CMakeLists.txt
+  main.cc
+  task.cc
+C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\src\assignment04\QuadricT.hh(84,42): warning C4244: 'return': conversion from 'double' to 'Scalar', possible loss of data
+          with
+          [
+              Scalar=float
+          ] (compiling source file C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\src\assignment04\task.cc)
+C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\src\assignment04\QuadricT.hh(78,10): message : while compiling class template member function 'Scalar QuadricT<Scalar>::operator ()(const tg::pos3 &) const'
+          with
+          [
+              Scalar=float
+          ] (compiling source file C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\src\assignment04\task.cc)
+C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\src\assignment04\task.cc(80,5): message : see the first reference to 'QuadricT<float>::operator ()' in 'task::compute_halfedge_priority'
+C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\src\assignment04\task.cc(76,17): message : see reference to class template instantiation 'QuadricT<float>' being compiled
+  Assignment04.vcxproj -> C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\bin\Assignment04.exe

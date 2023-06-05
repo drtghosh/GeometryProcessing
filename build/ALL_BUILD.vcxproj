@@ -186,6 +186,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{387E5204-7C59-3C28-A98A-A58A590C49F3}</Project>
       <Name>Assignment03</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\src\assignment04\Assignment04.vcxproj">
+      <Project>{176E545E-0664-3546-B20A-5895CA2C5B8B}</Project>
+      <Name>Assignment04</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\src\assignment05\Assignment05.vcxproj">
+      <Project>{4AFF3B96-52CF-3B25-969A-FF3489B449A4}</Project>
+      <Name>Assignment05</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\extern\clean-core\clean-core.vcxproj">
       <Project>{FA0F7974-551D-3FE2-9561-F1740E3FD49D}</Project>
       <Name>clean-core</Name>

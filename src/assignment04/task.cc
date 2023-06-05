@@ -110,7 +110,15 @@ void initialize_quadrics(pm::Mesh const& mesh, pm::vertex_attribute<tg::pos3> co
          */
 
         // ----- %< -------------------------------------------------------
-        
+        for (auto heh : vh.outgoing_halfedges()) {
+            auto current_vertex = position[vh];
+            auto opposite_vertex = position[heh.vertex_to()];
+            auto third_vertex = position[heh.next().vertex_to()];
+
+            tg::vec3 normal = tg::normalize(tg::cross(opposite_vertex - current_vertex, third_vertex - current_vertex));
+            float d = tg::dot(normal, current_vertex);
+            quadrics[vh] += QuadricT(normal.x, normal.y, normal.z, d);
+        }
         // ----- %< -------------------------------------------------------
     }
 }

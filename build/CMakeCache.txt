@@ -72,6 +72,24 @@ Assignment03_IS_TOP_LEVEL:STATIC=OFF
 //Value Computed by CMake
 Assignment03_SOURCE_DIR:STATIC=C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/src/assignment03
 
+//Value Computed by CMake
+Assignment04_BINARY_DIR:STATIC=C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/build/src/assignment04
+
+//Value Computed by CMake
+Assignment04_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Assignment04_SOURCE_DIR:STATIC=C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/src/assignment04
+
+//Value Computed by CMake
+Assignment05_BINARY_DIR:STATIC=C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/build/src/assignment05
+
+//Value Computed by CMake
+Assignment05_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Assignment05_SOURCE_DIR:STATIC=C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/src/assignment05
+
 //Build shared libraries
 BUILD_SHARED_LIBS:BOOL=OFF
 
@@ -689,7 +707,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=28
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=30
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib
