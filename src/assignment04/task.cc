@@ -60,7 +60,23 @@ bool is_collapse_legal(pm::vertex_attribute<tg::pos3>& position, pm::face_attrib
      */
 
     // ----- %< -------------------------------------------------------
+    for (auto fh: v0.faces()){
+        if(fh != fl && fh!= fr){
+            auto actual_normal = tg::normalize(normal[fh]);
 
+            position[v0] = p1;
+            auto changed_normal = tg::normalize(pm::triangle_normal(fh, position));
+
+            position[v0] = p0;
+
+            auto angle_of_change = tg::abs(tg::acos(tg::dot(changed_normal, actual_normal)));
+
+            if(angle_of_change > tg::abs(max_angle)){
+                collapseOK = false;
+                break;
+            }
+        }
+    }
     // ----- %< -------------------------------------------------------
 
     // return the result of the collapse simulation
