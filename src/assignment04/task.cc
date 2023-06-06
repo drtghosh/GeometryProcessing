@@ -3,13 +3,14 @@
 #include <polymesh/properties.hh>
 #include <typed-geometry/tg.hh>
 #include "QuadricT.hh"
+#include <iostream>
 
 #include <queue>
 
 namespace task
 {
 bool is_collapse_legal(pm::vertex_attribute<tg::pos3>& position, pm::face_attribute<tg::vec3> const& normal, pm::halfedge_handle heh, tg::angle32 max_angle)
-{
+{   
     // collect vertices
     auto const v0 = heh.vertex_from();
     auto const v1 = heh.vertex_to();
@@ -61,7 +62,7 @@ bool is_collapse_legal(pm::vertex_attribute<tg::pos3>& position, pm::face_attrib
 
     // ----- %< -------------------------------------------------------
     for (auto fh: v0.faces()){
-        if(fh != fl && fh!= fr){
+        if(fh != fl && fh != fr){
             auto actual_normal = tg::normalize(normal[fh]);
 
             position[v0] = p1;
@@ -69,9 +70,9 @@ bool is_collapse_legal(pm::vertex_attribute<tg::pos3>& position, pm::face_attrib
 
             position[v0] = p0;
 
-            auto angle_of_change = tg::abs(tg::acos(tg::dot(changed_normal, actual_normal)));
+            auto angle_of_change = tg::abs(tg::to_degree(tg::acos(tg::dot(changed_normal, actual_normal))));
 
-            if(angle_of_change > tg::abs(max_angle)){
+            if(angle_of_change > max_angle.degree()){
                 collapseOK = false;
                 break;
             }
@@ -126,14 +127,10 @@ void initialize_quadrics(pm::Mesh const& mesh, pm::vertex_attribute<tg::pos3> co
          */
 
         // ----- %< -------------------------------------------------------
-        for (auto heh : vh.outgoing_halfedges()) {
-            auto current_vertex = position[vh];
-            auto opposite_vertex = position[heh.vertex_to()];
-            auto third_vertex = position[heh.next().vertex_to()];
-
-            tg::vec3 normal = tg::normalize(tg::cross(opposite_vertex - current_vertex, third_vertex - current_vertex));
-            float d = tg::dot(normal, current_vertex);
-            quadrics[vh] += QuadricT(normal.x, normal.y, normal.z, d);
+        for (auto fh : vh.faces()) {
+            tg::vec3 normal = tg::normalize(normals[fh]);
+            float d = -tg::dot(normal, position[vh]);
+            quadrics[vh] += Quadric(normal.x, normal.y, normal.z, d);
         }
         // ----- %< -------------------------------------------------------
     }
@@ -231,11 +228,17 @@ void decimate(pm::Mesh& mesh, pm::vertex_attribute<tg::pos3>& position, int num_
          */
 
         // ----- %< -------------------------------------------------------
-        auto heh = collapse_halfedge[vh];
-        if(is_collapse_legal(position, normal, heh, max_angle){
+        pm::halfedge_handle heh = collapse_halfedge[vh];
+        if(is_collapse_legal(position, normals, heh, max_angle)){
+            pm::vertex_handle v0 = heh.vertex_from();
+            pm::vertex_handle v1 = heh.vertex_to();
             mesh.halfedges().collapse(heh);
-            quadrics[heh.vertex_to()] += quadrics[heh.vertex_from()];
-            enqueue_vertex(heh.vertex_to());
+            quadrics[v1] += quadrics[v0];
+            enqueue_vertex(v1);
+            for (auto vh : v1.adjacent_vertices()) {
+                enqueue_vertex(vh);
+            }
+            current_num_vertices = mesh.vertices().count();
         }
         // ----- %< -------------------------------------------------------
     }
