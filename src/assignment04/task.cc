@@ -231,7 +231,12 @@ void decimate(pm::Mesh& mesh, pm::vertex_attribute<tg::pos3>& position, int num_
          */
 
         // ----- %< -------------------------------------------------------
-        
+        auto heh = collapse_halfedge[vh];
+        if(is_collapse_legal(position, normal, heh, max_angle){
+            mesh.halfedges().collapse(heh);
+            quadrics[heh.vertex_to()] += quadrics[heh.vertex_from()];
+            enqueue_vertex(heh.vertex_to());
+        }
         // ----- %< -------------------------------------------------------
     }
 
