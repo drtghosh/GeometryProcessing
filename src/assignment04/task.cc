@@ -3,14 +3,13 @@
 #include <polymesh/properties.hh>
 #include <typed-geometry/tg.hh>
 #include "QuadricT.hh"
-#include <iostream>
 
 #include <queue>
 
 namespace task
 {
 bool is_collapse_legal(pm::vertex_attribute<tg::pos3>& position, pm::face_attribute<tg::vec3> const& normal, pm::halfedge_handle heh, tg::angle32 max_angle)
-{   
+{
     // collect vertices
     auto const v0 = heh.vertex_from();
     auto const v1 = heh.vertex_to();
@@ -34,7 +33,7 @@ bool is_collapse_legal(pm::vertex_attribute<tg::pos3>& position, pm::face_attrib
     bool collapseOK = true;
 
     /*
-     * INSERT YOUR OWN CODE BETWEEN ''THE HORIZONTAL LINES BELOW.
+     * INSERT YOUR OWN CODE BETWEEN THE HORIZONTAL LINES BELOW.
      * DO NOT CHANGE CODE ANYWHERE ELSE.
      *
      * Note that there are other functions below this function
@@ -61,19 +60,19 @@ bool is_collapse_legal(pm::vertex_attribute<tg::pos3>& position, pm::face_attrib
      */
 
     // ----- %< -------------------------------------------------------
-    for (auto fh: v0.faces()){
-        if(fh != fl && fh != fr){
-            auto actual_normal = tg::normalize(normal[fh]);
+    for (auto fh : v0.faces()) {
+        if (fh != fl && fh != fr) {
+            auto actual_normal = tg::normalize(normal[fh]); // normal before collapse
 
-            position[v0] = p1;
-            auto changed_normal = tg::normalize(pm::triangle_normal(fh, position));
+            position[v0] = p1; // simulate collapse
+            auto changed_normal = tg::normalize(pm::triangle_normal(fh, position)); // normal after collapse
 
-            position[v0] = p0;
+            position[v0] = p0; // undo collapse
 
-            auto angle_of_change = tg::abs(tg::to_degree(tg::acos(tg::dot(changed_normal, actual_normal))));
+            auto angle_of_change = tg::angle_between(changed_normal, actual_normal); // angle between normals
 
-            if(angle_of_change > max_angle.degree()){
-                collapseOK = false;
+            if (angle_of_change > max_angle) {
+                collapseOK = false; // collapse not allowed
                 break;
             }
         }
@@ -99,7 +98,6 @@ float compute_halfedge_priority(pm::vertex_attribute<tg::pos3> const& position, 
 
 void initialize_quadrics(pm::Mesh const& mesh, pm::vertex_attribute<tg::pos3> const& position, pm::face_attribute<tg::vec3> const& normals, pm::vertex_attribute<Quadric>& quadrics)
 {
-    //int i = 0;
     for (auto vh : mesh.vertices())
     {
         quadrics[vh].clear();
@@ -128,9 +126,9 @@ void initialize_quadrics(pm::Mesh const& mesh, pm::vertex_attribute<tg::pos3> co
 
         // ----- %< -------------------------------------------------------
         for (auto fh : vh.faces()) {
-            tg::vec3 normal = tg::normalize(normals[fh]);
-            float d = -tg::dot(normal, position[vh]);
-            quadrics[vh] += Quadric(normal.x, normal.y, normal.z, d);
+            tg::vec3 normal = tg::normalize(normals[fh]); // normal of face
+            float d = -tg::dot(normal, position[vh]); // distance of face to origin
+            quadrics[vh] += Quadric(normal.x, normal.y, normal.z, d); // add quadric
         }
         // ----- %< -------------------------------------------------------
     }
@@ -229,16 +227,16 @@ void decimate(pm::Mesh& mesh, pm::vertex_attribute<tg::pos3>& position, int num_
 
         // ----- %< -------------------------------------------------------
         pm::halfedge_handle heh = collapse_halfedge[vh];
-        if(is_collapse_legal(position, normals, heh, max_angle)){
-            pm::vertex_handle v0 = heh.vertex_from();
-            pm::vertex_handle v1 = heh.vertex_to();
-            mesh.halfedges().collapse(heh);
-            quadrics[v1] += quadrics[v0];
-            enqueue_vertex(v1);
+        if (is_collapse_legal(position, normals, heh, max_angle)) {
+            pm::vertex_handle v0 = heh.vertex_from(); // vertex to collapse
+            pm::vertex_handle v1 = heh.vertex_to(); // vertex to keep
+            mesh.halfedges().collapse(heh); // collapse halfedge
+            quadrics[v1] += quadrics[v0]; // update quadric
+            enqueue_vertex(v1); // update queue
             for (auto vh : v1.adjacent_vertices()) {
-                enqueue_vertex(vh);
+                enqueue_vertex(vh); // update queue
             }
-            current_num_vertices = mesh.vertices().count();
+            current_num_vertices = mesh.vertices().count(); // update number of vertices
         }
         // ----- %< -------------------------------------------------------
     }

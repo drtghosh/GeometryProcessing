@@ -3,5 +3,8 @@
 # Empty lines and lines starting with a hash symbol '#' are ignored.
 # Below is an example entry. Delete it before adding your own entries!
 
-123456 John Doe
+444698 Isabelle Mieves
+441275 Debabrata Ghosh
+418018 Emna Bennour
+374799 Boban Anastasi
 
