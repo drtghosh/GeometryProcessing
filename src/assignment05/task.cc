@@ -1,7 +1,6 @@
 #include "task.hh"
 
 #include <iostream>
-#include <math.h>
 
 #include <typed-geometry/tg.hh>
 
@@ -10,7 +9,7 @@
 
 namespace task
 {
-void init_texture_coordinates(pm::vertex_attribute<tg::pos3> const& position, pm::vertex_attribute<tg::pos2>& texture_coordinate)
+void init_texture_coordinates(pm::vertex_attribute<tg::pos3> const& position, pm::vertex_attribute<tg::pos2>& texture_coordintate)
 {
     auto const& m = position.mesh();
 
@@ -58,21 +57,22 @@ void init_texture_coordinates(pm::vertex_attribute<tg::pos3> const& position, pm
     } while (current_edge != start_halfedge);
 
     int count = 0;
-    for (pm::vertex_handle vh: loop)
-	{
+    for (pm::vertex_handle vh : loop)
+    {
         auto angle_radians = 2.0f * tg::acos(-1.0f) * boundary_lengths_till[count] / total_length_boundary;
         float x = 0.5f + 0.5f * cos(angle_radians);
         float y = 0.5f + 0.5f * sin(angle_radians);
-        texture_coordinate[vh] = tg::pos2(x, y);
+        texture_coordintate[vh] = tg::pos2(x, y);
         count++;
-	}
+    }
     for (pm::vertex_handle vh : m.vertices())
-	{
-		if (!vh.is_boundary())
-		{
-			texture_coordinate[vh] = tg::pos2(0.5f, 0.5f);
-		}
-	}
+    {
+        if (!vh.is_boundary())
+        {
+            texture_coordintate[vh] = tg::pos2(0.5f, 0.5f);
+        }
+    }
+
     //================================================================
     //--- end strip ---
     //================================================================
@@ -98,21 +98,26 @@ void smooth_texcoords(pm::Mesh const& m, int iterations, pm::edge_attribute<floa
             //================================================================================
             //--- start strip ---
             //================================================================================
+            if (v.is_boundary())
+			{
+				continue;
+			}
             float sum_weights = 0.0f;
             tg::pos2 sum_weighted_texcoords(0.0f, 0.0f);
             for (pm::halfedge_handle heh : v.outgoing_halfedges())
             {
-				pm::vertex_handle vh = heh.vertex_to();
-				float w = weight[heh.edge()];
-				sum_weights += w;
-				sum_weighted_texcoords += w * (texture_coordinate[vh] - texture_coordinate[v]);
-			}
-            new_texture_coordinate[v] = texture_coordinate[v] + sum_weighted_texcoords / sum_weights;
+                pm::vertex_handle vh = heh.vertex_to();
+                float w = weight[heh.edge()];
+                sum_weights += w;
+                sum_weighted_texcoords += w * (texture_coordinate[vh] - texture_coordinate[v]);
+            }
+            new_texture_coordinate[v] = texture_coordinate[v] + (sum_weighted_texcoords / sum_weights);
+
             //================================================================================
             //--- end strip ---
             //================================================================================
         }
- 
+        texture_coordinate = new_texture_coordinate;
     }
 }
 
@@ -185,26 +190,29 @@ void add_row_to_system(std::vector<Eigen::Triplet<float>>& triplets,
     //================================================================================
     float vertex_weight = 0.0f;
     for (pm::halfedge_handle heh : origvh.outgoing_halfedges())
-	{
-		pm::vertex_handle vh = heh.vertex_to();
-		pm::edge_handle eh = heh.edge();
-		float w = weight[eh];
+    {
+        pm::vertex_handle vh = heh.vertex_to();
+        pm::edge_handle eh = heh.edge();
+        float w = weight[eh];
         vertex_weight += w;
-	}
-    triplets.push_back(Eigen::Triplet<float>(sysid[origvh], sysid[origvh], -1.0f));
+    }
+    triplets.push_back(Eigen::Triplet<float>(sysid[origvh], sysid[origvh], 1.0f));
     for (pm::halfedge_handle heh : origvh.outgoing_halfedges())
     {
         pm::vertex_handle vh = heh.vertex_to();
         pm::edge_handle eh = heh.edge();
         float w = weight[eh];
-        triplets.push_back(Eigen::Triplet<float>(sysid[origvh], sysid[vh], w / vertex_weight));
         if (vh.is_boundary())
         {
-            triplets.push_back(Eigen::Triplet<float>(sysid[vh], sysid[origvh], w / vertex_weight));
-            rhsu[sysid[vh]] += w * texture_coordinate[vh].x / vertex_weight;
-            rhsv[sysid[vh]] += w * texture_coordinate[vh].y / vertex_weight;
+            rhsu[sysid[origvh]] += (w * texture_coordinate[vh].x / vertex_weight);
+            rhsv[sysid[origvh]] += (w * texture_coordinate[vh].y / vertex_weight);
         }
+        else 
+        {
+			triplets.push_back(Eigen::Triplet<float>(sysid[origvh], sysid[vh], -w / vertex_weight));
+		}
     }
+
     //================================================================================
     //--- end strip ---
     //================================================================================
@@ -263,12 +271,13 @@ void direct_solve(pm::vertex_attribute<tg::pos3> const& position, pm::edge_attri
     //--- start strip ---
     //================================================================================
     for (auto const v : m.vertices())
-	{
-		if (!v.is_boundary())
-		{
-			add_row_to_system(triplets, sysid, edge_weight, texture_coordinate, rhsu, rhsv, v);
-		}
-	}
+    {
+        if (!v.is_boundary())
+        {
+            add_row_to_system(triplets, sysid, edge_weight, texture_coordinate, rhsu, rhsv, v);
+        }
+    }
+
     //================================================================================
     //--- end strip ---
     //================================================================================
