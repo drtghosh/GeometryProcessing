@@ -42,9 +42,10 @@ void init_texture_coordinates(pm::vertex_attribute<tg::pos3> const& position, pm
     //================================================================================
     //--- start strip ---
     //================================================================================
-    float total_length_boundary = 0.0f;
-    std::vector<float> boundary_lengths_till;
-    auto current_edge = start_halfedge;
+    float total_length_boundary = 0.0f; // total length of the boundary edges
+    std::vector<float> boundary_lengths_till; // length of the boundary edges till the current vertex
+    auto current_edge = start_halfedge; // current edge starting from the start halfedge
+    // compute the total length of the boundary edges and the length of the boundary edges till the current vertex
     do
     {
         if (current_edge.is_boundary())
@@ -56,6 +57,7 @@ void init_texture_coordinates(pm::vertex_attribute<tg::pos3> const& position, pm
         current_edge = current_edge.next();
     } while (current_edge != start_halfedge);
 
+    // map the boundary vertices onto a circle with radius 0.5 in texture space with the correct edge length ratio
     int count = 0;
     for (pm::vertex_handle vh : loop)
     {
@@ -65,6 +67,7 @@ void init_texture_coordinates(pm::vertex_attribute<tg::pos3> const& position, pm
         texture_coordintate[vh] = tg::pos2(x, y);
         count++;
     }
+    // map the interior vertices to the circle's center
     for (pm::vertex_handle vh : m.vertices())
     {
         if (!vh.is_boundary())
@@ -98,12 +101,14 @@ void smooth_texcoords(pm::Mesh const& m, int iterations, pm::edge_attribute<floa
             //================================================================================
             //--- start strip ---
             //================================================================================
+            // skip boundary vertices
             if (v.is_boundary())
 			{
 				continue;
 			}
-            float sum_weights = 0.0f;
-            tg::pos2 sum_weighted_texcoords(0.0f, 0.0f);
+            float sum_weights = 0.0f; // sum of the weights of the outgoing edges
+            tg::pos2 sum_weighted_texcoords(0.0f, 0.0f); // sum of the weighted texture coordinates of the outgoing edges
+            // compute the sum of the weights of the outgoing edges and the sum of the weighted texture coordinates of the outgoing edges
             for (pm::halfedge_handle heh : v.outgoing_halfedges())
             {
                 pm::vertex_handle vh = heh.vertex_to();
@@ -111,6 +116,7 @@ void smooth_texcoords(pm::Mesh const& m, int iterations, pm::edge_attribute<floa
                 sum_weights += w;
                 sum_weighted_texcoords += w * (texture_coordinate[vh] - texture_coordinate[v]);
             }
+            // compute the new texture coordinates
             new_texture_coordinate[v] = texture_coordinate[v] + (sum_weighted_texcoords / sum_weights);
 
             //================================================================================
@@ -188,7 +194,8 @@ void add_row_to_system(std::vector<Eigen::Triplet<float>>& triplets,
     //================================================================================
     //--- start strip ---
     //================================================================================
-    float vertex_weight = 0.0f;
+    float vertex_weight = 0.0f; // sum of the weights of the outgoing edges
+    // compute the sum of the weights of the outgoing edges
     for (pm::halfedge_handle heh : origvh.outgoing_halfedges())
     {
         pm::vertex_handle vh = heh.vertex_to();
@@ -196,7 +203,7 @@ void add_row_to_system(std::vector<Eigen::Triplet<float>>& triplets,
         float w = weight[eh];
         vertex_weight += w;
     }
-    triplets.push_back(Eigen::Triplet<float>(sysid[origvh], sysid[origvh], 1.0f));
+    triplets.push_back(Eigen::Triplet<float>(sysid[origvh], sysid[origvh], 1.0f)); // diagonal entry for origvh in the system matrix
     for (pm::halfedge_handle heh : origvh.outgoing_halfedges())
     {
         pm::vertex_handle vh = heh.vertex_to();
@@ -204,12 +211,12 @@ void add_row_to_system(std::vector<Eigen::Triplet<float>>& triplets,
         float w = weight[eh];
         if (vh.is_boundary())
         {
-            rhsu[sysid[origvh]] += (w * texture_coordinate[vh].x / vertex_weight);
-            rhsv[sysid[origvh]] += (w * texture_coordinate[vh].y / vertex_weight);
+            rhsu[sysid[origvh]] += (w * texture_coordinate[vh].x / vertex_weight); // right hand side entry of u for origvh updated for boundary vertex vh
+            rhsv[sysid[origvh]] += (w * texture_coordinate[vh].y / vertex_weight); // right hand side entry of v for origvh updated for boundary vertex vh
         }
         else 
         {
-			triplets.push_back(Eigen::Triplet<float>(sysid[origvh], sysid[vh], -w / vertex_weight));
+			triplets.push_back(Eigen::Triplet<float>(sysid[origvh], sysid[vh], -w / vertex_weight)); // entry for origvh and non-boundary neighbour vh in the system matrix
 		}
     }
 
@@ -274,7 +281,7 @@ void direct_solve(pm::vertex_attribute<tg::pos3> const& position, pm::edge_attri
     {
         if (!v.is_boundary())
         {
-            add_row_to_system(triplets, sysid, edge_weight, texture_coordinate, rhsu, rhsv, v);
+            add_row_to_system(triplets, sysid, edge_weight, texture_coordinate, rhsu, rhsv, v); // setup the corresponding row of the linear systems (u and v)
         }
     }
 
