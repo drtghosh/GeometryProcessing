@@ -50,7 +50,7 @@ void init_texture_coordinates(pm::vertex_attribute<tg::pos3> const& position, pm
     {
         if (current_edge.is_boundary())
         {
-            float current_length = tg::distance(position[current.vertex_from()], position[current.vertex_to()]);
+            float current_length = tg::distance(position[current_edge.vertex_from()], position[current_edge.vertex_to()]);
             total_length_boundary += current_length;
             boundary_lengths_till.push_back(total_length_boundary);
         }
