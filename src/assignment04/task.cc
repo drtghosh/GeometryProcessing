@@ -60,14 +60,12 @@ bool is_collapse_legal(pm::vertex_attribute<tg::pos3>& position, pm::face_attrib
      */
 
     // ----- %< -------------------------------------------------------
+    position[v0] = p1; // simulate collapse
     for (auto fh : v0.faces()) {
         if (fh != fl && fh != fr) {
             auto actual_normal = tg::normalize(normal[fh]); // normal before collapse
-
-            position[v0] = p1; // simulate collapse
+            
             auto changed_normal = tg::normalize(pm::triangle_normal(fh, position)); // normal after collapse
-
-            position[v0] = p0; // undo collapse
 
             auto angle_of_change = tg::angle_between(changed_normal, actual_normal); // angle between normals
 
@@ -77,6 +75,7 @@ bool is_collapse_legal(pm::vertex_attribute<tg::pos3>& position, pm::face_attrib
             }
         }
     }
+    position[v0] = p0; // undo collapse simulation
     // ----- %< -------------------------------------------------------
 
     // return the result of the collapse simulation
@@ -230,8 +229,8 @@ void decimate(pm::Mesh& mesh, pm::vertex_attribute<tg::pos3>& position, int num_
         if (is_collapse_legal(position, normals, heh, max_angle)) {
             pm::vertex_handle v0 = heh.vertex_from(); // vertex to collapse
             pm::vertex_handle v1 = heh.vertex_to(); // vertex to keep
-            mesh.halfedges().collapse(heh); // collapse halfedge
             quadrics[v1] += quadrics[v0]; // update quadric
+            mesh.halfedges().collapse(heh); // collapse halfedge
             enqueue_vertex(v1); // update queue
             for (auto vh : v1.adjacent_vertices()) {
                 enqueue_vertex(vh); // update queue
