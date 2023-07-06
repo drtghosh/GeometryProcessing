@@ -1,14 +1,1 @@
-﻿  Building Custom Rule C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/extern/imgui/CMakeLists.txt
-  imgui.cpp
-  imguizmo.cpp
-  imgui_draw.cpp
-  imgui_demo.cpp
-  imgui_widgets.cpp
-  imgui_stdlib.cpp
-  imgui_tables.cpp
-  imgui_impl_opengl3.cpp
-  imgui_impl_glfw.cpp
-  implot.cpp
-  implot_items.cpp
-  Generating Code...
-  imgui.vcxproj -> C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\extern\imgui\Debug\imgui.lib
+﻿  imgui.vcxproj -> C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\extern\imgui\Debug\imgui.lib

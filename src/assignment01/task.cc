@@ -35,10 +35,50 @@ bool task::is_delaunay(polymesh::edge_handle edge, pm::vertex_attribute<tg::pos2
     // is the edge delaunay or not?
     // -> circum-circle test of the four points (a,b,c,d) OR check if the projected paraboloid is convex
     //--- start strip ---
+    tg::pos2 const& mid_ab = { (a.x + b.x) / 2, (a.y + b.y) / 2 };
+    float slope_normal_ab = std::numeric_limits<float>::infinity();
+    float intercept_normal_ab = std::numeric_limits<float>::infinity();
+    if (b.y != a.y) {
+        slope_normal_ab = -(b.x - a.x) / (b.y - a.y);
+        intercept_normal_ab = mid_ab.y - (slope_normal_ab * mid_ab.x);
+    }
 
+    tg::pos2 const& mid_ac = { (a.x + c.x) / 2, (a.y + c.y) / 2 };
+    float slope_normal_ac = 0.f;
+    float intercept_normal_ac = 0.f;
+    if (c.y != a.y) {
+        slope_normal_ac = -(c.x - a.x) / (c.y - a.y);
+        intercept_normal_ac = mid_ac.y - (slope_normal_ac * mid_ac.x);
+    }
 
+    if (intercept_normal_ab == intercept_normal_ac) {
+        result = false;
+    }
+    else {
+        float center_x = 0.f;
+        tg::pos2 circumcenter = { center_x, center_x };
+        if (b.y == a.y) {
+            center_x = mid_ab.x;
+            circumcenter = { center_x, (slope_normal_ac * center_x) + intercept_normal_ac };
+        } else if (c.y == a.y) {
+            center_x = mid_ac.x;
+            circumcenter = { center_x, (slope_normal_ab * center_x) + intercept_normal_ab };
+        }
+        else {
+            center_x = (intercept_normal_ac - intercept_normal_ab) / (slope_normal_ab - slope_normal_ac);
+            circumcenter = { center_x, (slope_normal_ab * center_x) + intercept_normal_ab };
+        }
+        float radius = tg::length(a - circumcenter);
+        float dist_d_center = tg::length(d - circumcenter);
+        if (dist_d_center < radius) {
+            result = false;
+        }
+        std::cout << "Circumcenter: " << circumcenter << "Radius: " << radius << "Distance: " << dist_d_center << std::endl;
+    }
+    std::cout << "Lines info: " << slope_normal_ab << intercept_normal_ab << slope_normal_ac << intercept_normal_ac << std::endl;
+    std::cout << "Delauney? " << result << std::endl;
     //--- end strip ---
-
+    
     return result;
 }
 
@@ -68,8 +108,54 @@ polymesh::vertex_index task::insert_vertex(polymesh::Mesh& mesh, pm::vertex_attr
     //   You can check if an edge e is boundary by calling e.is_boundary()
     //   You can use an std::queue as a container for edges
     //--- start strip ---
+    std::queue<polymesh::edge_handle> edges_to_check;
+    auto visited = mesh.edges().make_attribute<bool>();
+    for (auto e : mesh.edges()) {
+        visited[e] = false;
+    }
+    
+    //auto inserted_vertex = v.idx.value;
 
+    for (auto f : v.all_faces()) {
+        for (auto e : f.edges()) {
+            if (e.vertexA() != v && e.vertexB() != v) {
+                edges_to_check.push(e);
+            }
+        }
+    }
 
+    while (!edges_to_check.empty()) {
+        polymesh::edge_handle current_edge = edges_to_check.front();
+        auto current_edge_idx = current_edge.idx.value;
+        edges_to_check.pop();
+        std::cout << "Current edge index: " << current_edge_idx << " and edge visited: " << visited[current_edge] << std::endl;
+        
+        if (visited[current_edge]) {
+            continue;
+        }
+        else {
+            visited[current_edge] = true;
+            if (current_edge.is_boundary()) continue;
+            if (is_delaunay(current_edge, position)) {
+                continue;
+            }
+            auto edges_faceA = current_edge.faceA().edges();
+            auto edges_faceB = current_edge.faceB().edges();
+            auto it1 = edges_faceA.begin();
+            auto it2 = edges_faceB.begin();
+            for (; it1 != edges_faceA.end(); ++it1, ++it2) {
+                if (*it1 != current_edge) {
+                    //visited[e] = false;
+                    edges_to_check.push(*it1);
+                }
+                if (*it2 != current_edge) {
+                    //visited[e] = false;
+                    edges_to_check.push(*it2);
+                }
+            }
+            mesh.edges().flip(current_edge);
+        }
+    }
     //--- end strip ---
 
     return v;

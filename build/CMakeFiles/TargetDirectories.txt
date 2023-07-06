@@ -22,3 +22,11 @@ C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exerc
 C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/build/src/assignment00/CMakeFiles/ALL_BUILD.dir
 C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/build/src/assignment01/CMakeFiles/Assignment01.dir
 C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/build/src/assignment01/CMakeFiles/ALL_BUILD.dir
+C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/build/src/assignment02/CMakeFiles/Assignment02.dir
+C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/build/src/assignment02/CMakeFiles/ALL_BUILD.dir
+C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/build/src/assignment03/CMakeFiles/Assignment03.dir
+C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/build/src/assignment03/CMakeFiles/ALL_BUILD.dir
+C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/build/src/assignment04/CMakeFiles/Assignment04.dir
+C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/build/src/assignment04/CMakeFiles/ALL_BUILD.dir
+C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/build/src/assignment05/CMakeFiles/Assignment05.dir
+C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/build/src/assignment05/CMakeFiles/ALL_BUILD.dir

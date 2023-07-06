@@ -178,6 +178,22 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{C8BA2D0C-B424-3DAC-B82A-C6BE3A29A7F6}</Project>
       <Name>Assignment01</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\src\assignment02\Assignment02.vcxproj">
+      <Project>{D5853314-4F79-3BAA-AEA6-767FD2F0B5C1}</Project>
+      <Name>Assignment02</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\src\assignment03\Assignment03.vcxproj">
+      <Project>{387E5204-7C59-3C28-A98A-A58A590C49F3}</Project>
+      <Name>Assignment03</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\src\assignment04\Assignment04.vcxproj">
+      <Project>{176E545E-0664-3546-B20A-5895CA2C5B8B}</Project>
+      <Name>Assignment04</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\src\assignment05\Assignment05.vcxproj">
+      <Project>{4AFF3B96-52CF-3B25-969A-FF3489B449A4}</Project>
+      <Name>Assignment05</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\extern\clean-core\clean-core.vcxproj">
       <Project>{FA0F7974-551D-3FE2-9561-F1740E3FD49D}</Project>
       <Name>clean-core</Name>

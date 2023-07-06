@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\src\assignment05\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\src\assignment05\task.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\src\assignment05\task.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\src\assignment05\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\clean-core\clean_core.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{41FBFED2-A481-3AAD-BD00-970A1F59957B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1A1C3940-8137-3FAC-93C7-A9ECD04D5DE1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

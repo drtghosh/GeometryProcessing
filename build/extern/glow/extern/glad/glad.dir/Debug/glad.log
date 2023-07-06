@@ -1,5 +1,1 @@
-﻿  Building Custom Rule C:/Users/drtghosh/Documents/All_of_RWTH/Semester2/GeometryProcessingCourse/Exercises/GeometryProcessingFramework/extern/glow/extern/glad/CMakeLists.txt
-  glad.c
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
-C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\extern\glow\extern\glad\core-4.5\include\glad/glad.h(630,1): message : see previous definition of 'APIENTRY'
-  glad.vcxproj -> C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\extern\glow\extern\glad\Debug\glad.lib
+﻿  glad.vcxproj -> C:\Users\drtghosh\Documents\All_of_RWTH\Semester2\GeometryProcessingCourse\Exercises\GeometryProcessingFramework\build\extern\glow\extern\glad\Debug\glad.lib
